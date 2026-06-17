@@ -1,0 +1,196 @@
+name,activity_type,price,length,best_time,drive_min_from_dtla,visited,latitude,longitude,website,geocode_query,notes
+Elefante,Restaurant,$$$,1-3h,Evening,18,no,,,,"Elefante, Venice, Los Angeles",ESTIMATE | prev geocode failed - try address
+Macaroni Republic,Restaurant,$$,1-3h,Evening,12,no,,,,"Macaroni Republic, Los Angeles",ESTIMATE
+Donne,Restaurant,$$,1-3h,Evening,15,no,,,,"Donne, Los Angeles",ESTIMATE
+Wax Paper,Restaurant,$,<1h,Lunch,14,no,,,,"Wax Paper, Los Angeles",ESTIMATE
+Villa's Tacos,Restaurant,$,<1h,Anytime,12,no,,,,Villa's Tacos Highland Park Los Angeles CA,ESTIMATE
+Pantry West,Restaurant,$$,1-3h,Anytime,20,no,,,,"Pantry West, Los Angeles",ESTIMATE | distinct from 'Pantry' - verify
+Red Bird,Restaurant,$$$$,1-3h,Evening,5,no,,,,"Redbird, Los Angeles",ESTIMATE
+Rainforest Cafe,Restaurant,$$,1-3h,Anytime,40,no,,,,"Rainforest Cafe, Ontario Mills, CA",ESTIMATE | likely Ontario Mills location
+Slice and Pint,Restaurant,$$,1-3h,Evening,16,no,,,,"Slice and Pint, Los Angeles",ESTIMATE
+Companion,Restaurant,$$$,1-3h,Evening,16,no,,,,"Companion, Los Angeles",ESTIMATE
+Cosetta,Restaurant,$$,1-3h,Evening,15,no,,,,"Cosetta, Los Angeles",ESTIMATE
+Le Great Outdoor,Restaurant,$$,1-3h,Evening,14,no,,,,"Le Grand Outdoor, Los Angeles",ESTIMATE | spelling uncertain
+Beethoven Market,Restaurant,$,<1h,Lunch,22,no,,,,"Beethoven Market, Los Angeles",ESTIMATE
+Gjusta,Restaurant,$$$,1-3h,Morning,20,no,,,,"Gjusta, Venice, Los Angeles",ESTIMATE
+De La Nonna,Restaurant,$$,1-3h,Evening,6,no,,,,"De La Nonna, Los Angeles",ESTIMATE | Arts District
+Great White,Restaurant,$$,1-3h,Morning,20,yes,,,,Great White restaurant Venice Los Angeles CA,ESTIMATE
+Cafe on 27,Restaurant,$$,1-3h,Morning,18,no,,,,"Cafe on 27, Los Angeles",ESTIMATE
+Calabra,Restaurant,$$$,1-3h,Evening,18,no,,,,"Calabra, Santa Monica",ESTIMATE | Santa Monica Proper rooftop
+John and Vinny's,Restaurant,$$$,1-3h,Evening,12,no,,,,"Jon and Vinny's, Los Angeles",ESTIMATE
+All'Antico Vinaio,Restaurant,$,<1h,Lunch,10,yes,,,,"All'Antico Vinaio, Los Angeles",ESTIMATE
+Alba,Restaurant,$$$,1-3h,Evening,12,no,,,,"Alba, Los Angeles",ESTIMATE
+Union Pasadena,Restaurant,$$$,1-3h,Evening,18,no,,,,"Union, Pasadena, CA",ESTIMATE
+Burger She Wrote,Restaurant,$$,1-3h,Lunch,14,no,,,,"Burger She Wrote, Los Angeles",ESTIMATE
+Negroni,Restaurant,$$$,1-3h,Evening,14,yes,,,,"Negroni, Los Angeles",ESTIMATE
+Pantry,Restaurant,$$,1-3h,Anytime,5,no,,,,"The Original Pantry Cafe, Los Angeles",ESTIMATE | distinct from 'Pantry West'
+The Woods,Restaurant,$$,1-3h,Evening,16,no,,,,"The Woods, Los Angeles",ESTIMATE
+Tea At Shiloh,Restaurant,$$,1-3h,Afternoon,16,no,,,,"Tea at Shiloh, Los Angeles",ESTIMATE
+Dog People,Restaurant,$$,1-3h,Evening,14,no,,,,"Dog People, Los Angeles",ESTIMATE
+Seco,Restaurant,$$,1-3h,Evening,15,no,,,,"Seco, Los Angeles",ESTIMATE
+Wife and the Somm,Restaurant,$$$,1-3h,Evening,16,no,,,,"Wife and the Somm, Los Angeles",ESTIMATE
+Hippo,Restaurant,$$$,1-3h,Evening,12,no,,,,"Hippo, Highland Park, Los Angeles",ESTIMATE
+Etra,Restaurant,$$$,1-3h,Evening,12,no,,,,"Etra, Los Angeles",ESTIMATE
+Cento Pasta + Raw Bar,Restaurant,$$$,1-3h,Evening,10,no,,,,"Cento Pasta Bar, Los Angeles",ESTIMATE | see 'Cento Bar' - may be same
+Blossom,Restaurant,$$,1-3h,Lunch,8,no,,,,"Blossom, Los Angeles",ESTIMATE
+Flippers,Restaurant,$$,1-3h,Anytime,16,no,,,,"Flippers, Los Angeles",ESTIMATE
+Messob,Restaurant,$$,1-3h,Evening,12,no,,,,"Messob Ethiopian, Los Angeles",ESTIMATE | Little Ethiopia
+Tatami Sushi,Restaurant,$$,1-3h,Evening,18,no,,,,"Tatami Sushi, Los Angeles",ESTIMATE
+Papi's,Restaurant,$,<1h,Anytime,14,yes,,,,"Papi's, Los Angeles",ESTIMATE
+Leo's Tacos,Restaurant,$,<1h,Late night,12,yes,,,,"Leo's Tacos Truck, Los Angeles",ESTIMATE | prev geocode failed
+Park's Finest,Restaurant,$$,1-3h,Evening,8,yes,,,,"The Park's Finest BBQ, Los Angeles",ESTIMATE
+Tartine,Restaurant,$$,<1h,Morning,12,yes,,,,"Tartine, Los Angeles",ESTIMATE
+Carney's,Restaurant,$,<1h,Anytime,14,yes,,,,"Carney's, Sunset Blvd, Los Angeles",ESTIMATE
+Ten-KBBQ,Restaurant,$$,1-3h,Evening,12,yes,,,,"Ten KBBQ, Los Angeles",ESTIMATE
+Hawt Mess,Restaurant,$$,1-3h,Lunch,14,yes,,,,"Hawt Mess, Los Angeles",ESTIMATE
+Uovo,Restaurant,$$,1-3h,Evening,16,yes,,,,"Uovo, Los Angeles",ESTIMATE
+Secret Slice,Restaurant,$,<1h,Late night,12,yes,,,,"Secret Slice, Los Angeles",ESTIMATE
+Squirl,Restaurant,$$,<1h,Morning,8,no,,,,"Sqirl, Los Angeles",ESTIMATE | spelled 'Sqirl'
+Blondie,Restaurant,$$,1-3h,Evening,12,no,,,,"Blondie, Los Angeles",ESTIMATE
+Manuela,Restaurant,$$$,1-3h,Evening,8,no,,,,"Manuela, Los Angeles",ESTIMATE | Arts District
+Laurel Hardware,Restaurant,$$$,1-3h,Evening,18,no,,,,"Laurel Hardware, West Hollywood",ESTIMATE
+Donna's Echo Park,Restaurant,$$,1-3h,Evening,8,no,,,,"Donna's, Echo Park, Los Angeles",ESTIMATE
+Juneshine,Bar,$$,1-3h,Evening,20,no,,,,"JuneShine, Los Angeles",ESTIMATE
+71 Above,Bar,$$$,1-3h,Evening,5,no,,,,"71Above, Los Angeles",ESTIMATE | DTLA skyscraper
+Bonsai,Bar,$$,1-3h,Evening,14,no,,,,"Bonsai bar, Los Angeles",ESTIMATE | BOTH BAR & CAFE in list - confirm/split
+Upside Down Bar,Bar,$$,1-3h,Late night,16,no,,,,"Upside Down Bar, Los Angeles",ESTIMATE
+Brennan's Turtle Racing,Bar,$$,1-3h,Evening,22,no,,,,"Brennan's, Marina del Rey",ESTIMATE
+No Vacancy,Bar,$$$,1-3h,Late night,12,no,,,,"No Vacancy, Los Angeles",ESTIMATE
+Brass Monkey,Bar,$$,1-3h,Late night,10,no,,,,"Brass Monkey, Los Angeles",ESTIMATE | Koreatown
+The Varnish,Bar,$$,1-3h,Late night,6,no,,,,"The Varnish, Los Angeles",ESTIMATE
+La Descarga,Bar,$$$,1-3h,Late night,10,no,,,,"La Descarga, Los Angeles",ESTIMATE
+Death and Co LA,Bar,$$$,1-3h,Late night,8,no,,,,"Death & Co, Los Angeles",ESTIMATE
+Thunderbolt,Bar,$$,1-3h,Evening,6,no,,,,"Thunderbolt, Los Angeles",ESTIMATE
+Bar Lis,Bar,$$$,1-3h,Evening,14,no,,,,"Bar Lis, Los Angeles",ESTIMATE | Hollywood rooftop
+Perch,Bar,$$$,1-3h,Evening,5,no,,,,"Perch, Los Angeles",ESTIMATE | DTLA rooftop
+The Rendition Room,Bar,$$$,1-3h,Late night,18,no,,,,"The Rendition Room, Los Angeles",ESTIMATE
+Lock and Key,Bar,$$,1-3h,Late night,10,no,,,,"Lock & Key, Los Angeles",ESTIMATE | Koreatown
+Good Times at Davey Wayne's,Bar,$$,1-3h,Late night,12,no,,,,"Good Times at Davey Wayne's, Los Angeles",ESTIMATE
+Clifton's Republic,Bar,$$,1-3h,Late night,6,no,,,,"Clifton's Republic, Los Angeles",ESTIMATE
+The Friend Bar,Bar,$,1-3h,Late night,10,no,,,,"The Friend, Silver Lake, Los Angeles",ESTIMATE
+Cento Bar,Bar,$$$,1-3h,Evening,10,no,,,,"Cento, Los Angeles",ESTIMATE | see 'Cento Pasta + Raw Bar'
+Bar 82,Bar,$$,1-3h,Late night,12,no,,,,"Bar 82, Los Angeles",ESTIMATE
+OSA Rooftop,Bar,$$$,1-3h,Evening,16,no,,,,"OSA rooftop, Los Angeles",ESTIMATE
+Kiss Kiss Bang Bang,Bar,$$,1-3h,Late night,14,no,,,,"Kiss Kiss Bang Bang, Los Angeles",ESTIMATE | disco bar
+Tiki Kai,Bar,$$,1-3h,Evening,22,no,,,,"Tiki Kai, Los Angeles",ESTIMATE
+Prank Bar,Bar,$$,1-3h,Late night,12,no,,,,"Prank Bar, Los Angeles",ESTIMATE
+The Buttery,Cafe,$$,<1h,Morning,16,no,,,,"The Buttery, Los Angeles",ESTIMATE
+Olive and James,Cafe,$$,<1h,Morning,14,no,,,,"Olive and June, Los Angeles",ESTIMATE | name uncertain
+Halo,Cafe,$$,<1h,Morning,14,no,,,,"Halo, Los Angeles",ESTIMATE
+Spoke Bicycle Cafe,Cafe,$$,1-3h,Morning,12,no,,,,"Spoke Bicycle Cafe, Los Angeles",ESTIMATE | Frogtown
+El Matador,Cafe,$$,<1h,Morning,16,no,,,,"El Matador cafe, Los Angeles",ESTIMATE | also a Malibu beach name
+Modu,Cafe,$$,<1h,Morning,14,no,,,,"Modu, Los Angeles",ESTIMATE
+Dolce,Cafe,$$,<1h,Afternoon,14,no,,,,"Dolce, Los Angeles",ESTIMATE
+Bacio di Latte,Cafe,$,<1h,Afternoon,12,no,,,,"Bacio di Latte, Los Angeles",ESTIMATE | ice cream
+Mewame,Cafe,$,<1h,Afternoon,14,no,,,,"Mewame, Los Angeles",ESTIMATE | ice cream
+Awan,Cafe,$,<1h,Afternoon,16,no,,,,"Awan, Los Angeles",ESTIMATE | ice cream
+Dialog Cafe,Cafe,$$,<1h,Morning,16,no,,,,"Dialog Cafe, West Hollywood",ESTIMATE
+Stagger,Cafe,$$,<1h,Morning,12,no,,,,"Stagger, Los Angeles",ESTIMATE
+Intelligentsia,Cafe,$$,<1h,Morning,8,no,,,,Intelligentsia Coffee Silver Lake Los Angeles CA,ESTIMATE
+Blue Bottle,Cafe,$$,<1h,Morning,12,no,,,,"Blue Bottle Coffee, Los Angeles",ESTIMATE | MANY locations - pick one
+Verve Coffee Roasters,Cafe,$$,<1h,Morning,12,no,,,,"Verve Coffee Roasters, Los Angeles",ESTIMATE | multiple locations
+Go Get Em Tiger,Cafe,$$,<1h,Morning,12,no,,,,"Go Get Em Tiger, Los Angeles",ESTIMATE | multiple locations
+Alfred Tea Room,Cafe,$$,<1h,Afternoon,14,no,,,,"Alfred Tea Room, Los Angeles",ESTIMATE
+MatchaBar,Cafe,$$,<1h,Morning,12,no,,,,"MatchaBar, Los Angeles",ESTIMATE
+Coffee Dose,Cafe,$$,<1h,Morning,10,no,,,,"Coffee Dose, Los Angeles",ESTIMATE
+Cha Cha Matcha,Cafe,$$,<1h,Morning,12,no,,,,"Cha Cha Matcha, Los Angeles",ESTIMATE
+Canyon Coffee,Cafe,$$,<1h,Morning,14,no,,,,"Canyon Coffee, Los Angeles",ESTIMATE
+The Ivy,Cafe,$$$$,1-3h,Lunch,12,no,,,,"The Ivy, Los Angeles",ESTIMATE | upscale restaurant not just cafe
+Kissaten Corazon,Cafe,$$,<1h,Morning,12,no,,,,"Kissaten Corazon, Los Angeles",ESTIMATE
+Little Miss Cafe,Cafe,$$,<1h,Morning,12,yes,,,,"Little Miss Cafe, Los Angeles",ESTIMATE
+Alfred Coffee,Cafe,$$,<1h,Morning,14,yes,,,,"Alfred Coffee, Los Angeles",ESTIMATE | multiple locations
+Ideology,Cafe,$$,<1h,Morning,12,yes,,,,"Ideology Coffee, Los Angeles",ESTIMATE
+Archives of Us,Cafe,$$,<1h,Morning,12,yes,,,,"Archives of Us, Los Angeles",ESTIMATE
+Kulturas Ice Cream Bar,Cafe,$,<1h,Evening,14,no,,,,"Kulturas, Los Angeles",ESTIMATE | ice cream bar
+Bricks and Scones,Cafe,$$,1-3h,Morning,12,no,,,,"Bricks and Scones, Los Angeles",ESTIMATE | Larchmont
+At Gigi's,Cafe,$$,<1h,Morning,14,no,,,,"At Gigi's, Los Angeles",ESTIMATE
+Echo Park,Outdoors,Free,1-3h,Afternoon,8,no,,,,"Echo Park Lake, Los Angeles",ESTIMATE
+Echo Park Swan Boats,Outdoors,$,1-3h,Afternoon,8,no,,,,"Echo Park Lake Boat Rentals, Los Angeles",ESTIMATE | may dedupe with Echo Park
+Open Yoga Studio,Activity,$$,1-3h,Morning,14,no,,,,"Open Space Yoga, Los Angeles",ESTIMATE | name uncertain
+Venice Canals,Outdoors,Free,1-3h,Afternoon,20,no,,,,Venice Canals Historic District Los Angeles CA,ESTIMATE | prev geocode failed
+Beverly Cinema,Activity,$,1-3h,Evening,12,no,,,,"New Beverly Cinema, Los Angeles",ESTIMATE
+Kings Game,Activity,$$$,1-3h,Evening,5,yes,,,,"Crypto.com Arena, Los Angeles",ESTIMATE | LA Kings hockey
+Malibu Tide Pools,Outdoors,Free,1-3h,Morning,45,yes,,,,"Malibu tide pools, Malibu CA",ESTIMATE
+Point Lobos,Day trip,$,Full-day,Anytime,330,no,,,,"Point Lobos State Natural Reserve, Carmel CA",ESTIMATE | NOT LA - Carmel ~5.5hr drive
+City Walk,Activity,Free,1-3h,Evening,20,yes,,,,"Universal CityWalk, Universal City CA",ESTIMATE
+Disneyland,Activity,$$$$,Full-day,Anytime,45,yes,,,,"Disneyland, Anaheim CA",ESTIMATE | NOT LA - Anaheim
+Universal Studios,Activity,$$$$,Full-day,Anytime,20,yes,,,,"Universal Studios Hollywood, Universal City CA",ESTIMATE
+Palos Verdes Tidepools,Outdoors,Free,1-3h,Morning,40,yes,,,,"Palos Verdes tide pools, CA",ESTIMATE
+Santa Monica Mountains,Outdoors,Free,Half-day,Morning,35,no,,,,"Santa Monica Mountains National Recreation Area, CA",ESTIMATE
+Santa Monica Pier,Outdoors,Free,1-3h,Afternoon,25,yes,,,,Santa Monica Pier Santa Monica CA,ESTIMATE
+Palm Reading,Activity,$$,<1h,Anytime,,no,,,,,ESTIMATE | REVIEW - no fixed location
+Regal 4DX,Activity,$$,1-3h,Evening,8,no,,,,"Regal LA Live 4DX, Los Angeles",ESTIMATE
+USC Football Game,Activity,$$$,Half-day,Afternoon,10,no,,,,Los Angeles Memorial Coliseum,ESTIMATE
+Mulholland Trail,Hike,Free,1-3h,Morning,18,no,,,,"Mulholland Trail, Los Angeles",ESTIMATE
+Shakespeare in Topanga Canyon,Activity,$$,Half-day,Evening,30,no,,,,"Theatricum Botanicum, Topanga CA",ESTIMATE
+Paramount Ranch,Outdoors,Free,1-3h,Morning,40,no,,,,"Paramount Ranch, Agoura Hills CA",ESTIMATE
+Chateau Marmont,Activity,$$$$,1-3h,Evening,14,no,,,,"Chateau Marmont, Los Angeles",ESTIMATE
+Ojai,Day trip,$$,Full-day,Anytime,90,no,,,,Ojai CA,ESTIMATE | NOT LA - ~90min
+Magic Tree Hike,Hike,Free,1-3h,Morning,16,no,,,,"Wisdom Tree trail, Los Angeles",ESTIMATE | name uncertain - Wisdom Tree?
+Runyon Canyon Hike,Hike,Free,1-3h,Morning,14,yes,,,,Runyon Canyon Park Los Angeles CA,ESTIMATE
+Canal Market,Activity,$,1-3h,Afternoon,,no,,,,"Canal market, Los Angeles",ESTIMATE | REVIEW - ambiguous
+Photo Booth Museum,Museum,$,1-3h,Afternoon,12,no,,,,"Photo booth museum, Los Angeles",ESTIMATE | name uncertain
+Natural History Museum,Museum,$$,Half-day,Afternoon,10,no,,,,Natural History Museum of Los Angeles County,ESTIMATE
+Malibu Creek,Outdoors,Free,Half-day,Morning,40,no,,,,"Malibu Creek State Park, Calabasas CA",ESTIMATE
+Obscura Collective,Shopping,$$,<1h,Afternoon,12,no,,,,"Obscura Collective, Los Angeles",ESTIMATE | thrift
+The Grove,Shopping,$$,1-3h,Afternoon,12,yes,,,,"The Grove, Los Angeles",ESTIMATE
+Lucky Strike,Activity,$$,1-3h,Evening,16,no,,,,"Lucky Strike, Los Angeles",ESTIMATE | bowling
+The Last Bookstore,Activity,Free,1-3h,Anytime,6,yes,,,,The Last Bookstore downtown Los Angeles CA,ESTIMATE | 'Last Book LA' deduped here
+123 Farms Lavender Night,Day trip,$$,Half-day,Evening,90,no,,,,"123 Farms, Beaumont CA",ESTIMATE | NOT LA - Beaumont
+Wildwood Canyon Park,Outdoors,Free,1-3h,Morning,20,no,,,,"Wildwood Canyon Park, Burbank CA",ESTIMATE
+Warner Bros Studio Tour,Activity,$$$$,Half-day,Morning,20,no,,,,"Warner Bros Studio Tour Hollywood, Burbank CA",ESTIMATE | deduped (was twice)
+Culver City,Activity,Free,Half-day,Anytime,16,yes,,,,"Culver City, CA",ESTIMATE
+Long Beach Japanese Garden,Outdoors,$,1-3h,Afternoon,30,no,,,,"Earl Burns Miller Japanese Garden, Long Beach CA",ESTIMATE
+Catalina Island Day,Day trip,$$$,Full-day,Anytime,120,no,,,,"Catalina Island, Avalon CA",ESTIMATE | FERRY not drive - ~2hr total travel
+Santa Monica Farmer's Market,Activity,Free,1-3h,Morning,25,no,,,,Santa Monica Farmers Market,ESTIMATE | Wed + Sat
+Beachwood Canyon Stairs,Hike,Free,1-3h,Morning,16,no,,,,"Beachwood Canyon, Los Angeles",ESTIMATE
+Silverlake Flea Market,Shopping,$,1-3h,Morning,8,yes,,,,"Silver Lake Flea, Los Angeles",ESTIMATE
+Bronson Caves,Outdoors,Free,<1h,Morning,16,no,,,,"Bronson Caves, Griffith Park, Los Angeles",ESTIMATE
+Oak Glen,Day trip,$$,Full-day,Anytime,90,no,,,,"Oak Glen, CA",ESTIMATE | NOT LA - fall trip
+y2k Deadstock Store,Shopping,$$,<1h,Afternoon,6,no,,,,1717 S Figueroa St Los Angeles CA 90015,ESTIMATE | had explicit address
+Will Rogers Beach,Outdoors,Free,1-3h,Afternoon,28,yes,,,,"Will Rogers State Beach, Pacific Palisades CA",ESTIMATE
+Dodgers Game,Activity,$$$,Half-day,Evening,8,yes,,,,"Dodger Stadium, Los Angeles",ESTIMATE
+LA Apparel,Shopping,$$,<1h,Afternoon,8,no,,,,"Los Angeles Apparel, Los Angeles",ESTIMATE
+Watercolor Wednesdays Topanga,Activity,$$,1-3h,Afternoon,,no,,,,"Topanga, CA",ESTIMATE | REVIEW - event
+Topanga Canyon Hike (Tuna Canyon),Hike,Free,1-3h,Morning,30,no,,,,"Tuna Canyon trailhead, Topanga CA",ESTIMATE
+Silver Lake Hike,Hike,Free,1-3h,Morning,8,no,,,,"Silver Lake Reservoir, Los Angeles",ESTIMATE | REVIEW - which trail
+Rose Bowl Trail,Hike,Free,1-3h,Morning,18,no,,,,"Rose Bowl Loop, Pasadena CA",ESTIMATE
+Museum of Jurassic Technology,Museum,$,1-3h,Afternoon,16,no,,,,"Museum of Jurassic Technology, Culver City CA",ESTIMATE
+Magic Castle,Activity,$$$,1-3h,Evening,14,no,,,,"The Magic Castle, Los Angeles",ESTIMATE | members/guest only
+Palos Verdes Trail,Hike,Free,1-3h,Morning,40,no,,,,"Palos Verdes trail, CA",ESTIMATE | REVIEW - which trail
+Arboretum in Arcadia,Outdoors,$,Half-day,Morning,22,no,,,,"Los Angeles County Arboretum, Arcadia CA",ESTIMATE
+Mystic Museum,Museum,$,1-3h,Afternoon,18,no,,,,"Mystic Museum, Burbank CA",ESTIMATE
+Museum of Motion Pictures,Museum,$$,Half-day,Afternoon,12,no,,,,"Academy Museum of Motion Pictures, Los Angeles",ESTIMATE
+Huntington Library,Museum,$$,Half-day,Morning,20,no,,,,"The Huntington, San Marino CA",ESTIMATE
+Arlington Garden,Outdoors,Free,1-3h,Morning,20,no,,,,"Arlington Garden, Pasadena CA",ESTIMATE
+Auragami Studio,Activity,$$,<1h,Afternoon,12,no,,,,"Auragami, Los Angeles",ESTIMATE | aura photography?
+Foraging/Cooking Class Topanga,Activity,$$$,Half-day,Morning,30,no,,,,Topanga CA,ESTIMATE | REVIEW - class
+Magic Lamp,Restaurant,$$$,1-3h,Evening,50,no,,,,"Magic Lamp Inn, Rancho Cucamonga CA",ESTIMATE | NOT LA - Rancho Cucamonga
+Sycamore Inn,Restaurant,$$$$,1-3h,Evening,50,no,,,,"Sycamore Inn, Rancho Cucamonga CA",ESTIMATE | NOT LA - Rancho Cucamonga
+Shakespeare in Griffith Park,Activity,Free,Half-day,Evening,16,no,,,,"Griffith Park Free Shakespeare, Los Angeles",ESTIMATE
+California Plaza,Activity,Free,1-3h,Evening,6,no,,,,"California Plaza, Los Angeles",ESTIMATE | Grand Performances
+KCRW Summer Nights,Activity,Free,1-3h,Evening,,no,,,,Los Angeles,ESTIMATE | REVIEW - multi-venue series
+Getty Center,Museum,Free,Half-day,Afternoon,22,no,,,,Getty Center Los Angeles CA,ESTIMATE | free entry paid parking
+Lake Balboa,Outdoors,Free,1-3h,Morning,24,no,,,,"Lake Balboa, Van Nuys CA",ESTIMATE
+Lake Castaic,Outdoors,Free,Half-day,Morning,45,no,,,,"Castaic Lake, CA",ESTIMATE | ~45min
+Public Estrellas,Activity,,,,,no,,,,,"REVIEW - unclear what this is, no estimates given"
+Sunday's Best Vintage,Shopping,$$,<1h,Afternoon,10,no,,,,"Sunday's Best Vintage, Los Angeles",ESTIMATE
+Inn of the Seventh Ray,Restaurant,$$$$,1-3h,Evening,30,no,,,,"Inn of the Seventh Ray, Topanga CA",ESTIMATE
+Lake Shrine,Outdoors,Free,1-3h,Morning,28,no,,,,"Self-Realization Fellowship Lake Shrine, Pacific Palisades CA",ESTIMATE
+San Gabriel River,Outdoors,Free,Half-day,Morning,30,no,,,,"San Gabriel River, CA",ESTIMATE | REVIEW - pick a spot
+Ojai Pools,Day trip,Free,Full-day,Anytime,100,no,,,,"Ojai pools, Ojai CA",ESTIMATE | NOT LA - up the 33
+Bibim Paws,Restaurant,$$,1-3h,Lunch,14,no,,,,"Bibim Paws, Los Angeles",ESTIMATE
+Bonita Falls,Hike,Free,Half-day,Morning,60,no,,,,"Bonita Falls, Lytle Creek CA",ESTIMATE | NOT LA - ~1hr
+Santa Paula Punch Bowls,Hike,Free,Full-day,Morning,75,no,,,,"Santa Paula Punch Bowls, Santa Paula CA",ESTIMATE | NOT LA - Ventura Cty
+Hummingbird Trail,Hike,Free,1-3h,Morning,45,no,,,,"Hummingbird Trail, Simi Valley CA",ESTIMATE
+Cave of Munits,Hike,Free,1-3h,Morning,30,no,,,,"Cave of Munits, West Hills, Los Angeles",ESTIMATE
+Hidden Treasures Vintage,Shopping,$$,<1h,Afternoon,35,no,,,,"Hidden Treasures, Topanga CA",ESTIMATE
+Escondido Falls,Hike,Free,Half-day,Morning,45,no,,,,"Escondido Falls, Malibu CA",ESTIMATE | MALIBU not San Diego
+El Escorpion Loop Trail,Hike,Free,1-3h,Morning,30,no,,,,"El Escorpion Park, West Hills CA",ESTIMATE
+Santiago Oaks Regional Park,Outdoors,$,Half-day,Morning,50,no,,,,"Santiago Oaks Regional Park, Orange CA",ESTIMATE | NOT LA - Orange Cty
+Lake Hollywood,Outdoors,Free,1-3h,Morning,16,no,,,,"Lake Hollywood Reservoir, Los Angeles",ESTIMATE
+Crimes of Passion Museum,Museum,$,1-3h,Afternoon,14,no,,,,"Crimes of Passion museum, Los Angeles",ESTIMATE | name uncertain
+Data Land Art Exhibit,Activity,$$$,1-3h,Evening,6,no,,,,"DATALAND, Los Angeles",ESTIMATE | Refik Anadol DTLA
+LACMA Jazz Night,Activity,$$,1-3h,Evening,12,no,,,,"LACMA, Los Angeles",ESTIMATE | Friday jazz
+Santa Barbara,Day trip,$$,Full-day,Anytime,120,no,,,,"Santa Barbara, CA",ESTIMATE | NOT LA - ~2hr
+MOCA,Museum,$,1-3h,Afternoon,6,no,,,,"MOCA Grand Avenue, Los Angeles",ESTIMATE | Museum of Contemporary Art
