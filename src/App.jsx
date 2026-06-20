@@ -7,7 +7,11 @@ import {
   splitValues,
   hasCoords,
   typeColor,
+  primaryType,
+  subCategory,
   priceColor,
+  buildTypeGroups,
+  matchesTypeSelection,
   googleLink,
   yelpLink,
   websiteLink,
@@ -18,11 +22,12 @@ import {
 
 const LA_CENTER = [34.05, -118.33];
 
-// Filterable columns. Multi-value fields are marked so filtering matches ANY value.
-const FILTER_FIELDS = [
-  { key: "activity_type", label: "Type", multi: false },
-  { key: "price", label: "Price", multi: false },
-  { key: "length", label: "Length", multi: false },
+// Simple (non-type) multi-select chip filters. Each maps to a CSV column.
+// `multi` means the cell itself can hold comma-separated values (best_time),
+// so a row matches if ANY of its values is among the selected chips.
+const CHIP_FILTERS = [
+  { key: "price", label: "Price" },
+  { key: "length", label: "Length" },
   { key: "best_time", label: "Best time", multi: true },
 ];
 
@@ -39,10 +44,16 @@ function makePinIcon(type) {
 
 export default function App() {
   const [view, setView] = useState("map"); // "map" | "ratings"
+  const [mobilePane, setMobilePane] = useState("list"); // mobile only: "list" | "map"
+  const [mapReady, setMapReady] = useState(false);
   const [activities, setActivities] = useState([]);
   const [loadError, setLoadError] = useState(null);
   const [search, setSearch] = useState("");
-  const [filters, setFilters] = useState({});
+  // Multi-select filter state. Types/genres are Sets of strings; chipFilters is
+  // an object of { columnKey: Set(values) }. Empty set = no constraint.
+  const [selectedTypes, setSelectedTypes] = useState(() => new Set());
+  const [selectedGenres, setSelectedGenres] = useState(() => new Set());
+  const [chipFilters, setChipFilters] = useState({}); // key -> Set(values)
   const [maxDrive, setMaxDrive] = useState(""); // "" = any; else minutes threshold
   const [ratings, setRatings] = useState(() => loadRatings());
 
@@ -61,68 +72,107 @@ export default function App() {
       .catch((e) => setLoadError(e.message));
   }, []);
 
-  // ---- Build dropdown options from data (multi-value fields contribute each value) ----
-  const filterOptions = useMemo(() => {
+  // ---- Grouped type structure (type -> its genres) for the Type chip group ----
+  const typeGroups = useMemo(() => buildTypeGroups(activities), [activities]);
+
+  // ---- Distinct values for each simple chip filter ----
+  const chipOptions = useMemo(() => {
     const opts = {};
-    for (const { key, multi } of FILTER_FIELDS) {
+    for (const f of CHIP_FILTERS) {
       const values = new Set();
       for (const a of activities) {
-        if (multi) splitValues(a[key]).forEach((v) => values.add(v));
-        else if (a[key]) values.add(a[key]);
+        const raw = a[f.key];
+        if (f.multi) splitValues(raw).forEach((v) => values.add(v));
+        else if (raw) values.add(raw);
       }
-      opts[key] = [...values].sort();
+      opts[f.key] = [...values].sort();
     }
     return opts;
   }, [activities]);
 
-  // ---- Apply search + filters ----
+  // ---- Toggle helpers (return a NEW Set so React re-renders) ----
+  function toggleInSet(setter, value) {
+    setter((prev) => {
+      const next = new Set(prev);
+      next.has(value) ? next.delete(value) : next.add(value);
+      return next;
+    });
+  }
+  function toggleChip(key, value) {
+    setChipFilters((prev) => {
+      const cur = new Set(prev[key] || []);
+      cur.has(value) ? cur.delete(value) : cur.add(value);
+      return { ...prev, [key]: cur };
+    });
+  }
+
+  // ---- Apply search + all filters ----
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return activities.filter((a) => {
       if (q && !a.name?.toLowerCase().includes(q)) return false;
-      for (const { key, multi } of FILTER_FIELDS) {
-        const want = filters[key];
-        if (!want) continue;
-        if (multi) {
-          if (!splitValues(a[key]).includes(want)) return false;
-        } else if (a[key] !== want) {
-          return false;
+
+      // Type/genre group (OR within, see matchesTypeSelection).
+      if (!matchesTypeSelection(a, selectedTypes, selectedGenres)) return false;
+
+      // Each simple chip filter: OR within a filter, AND across filters.
+      for (const f of CHIP_FILTERS) {
+        const sel = chipFilters[f.key];
+        if (!sel || sel.size === 0) continue;
+        if (f.multi) {
+          const vals = splitValues(a[f.key]);
+          if (!vals.some((v) => sel.has(v))) return false;
+        } else {
+          if (!sel.has(a[f.key])) return false;
         }
       }
-      // Drive-time threshold: keep rows whose estimate is <= the chosen max.
-      // Rows with a blank drive estimate are kept only when no max is set.
+
+      // Drive-time threshold.
       if (maxDrive) {
         const d = parseFloat(a.drive_min_from_dtla);
         if (Number.isNaN(d) || d > parseFloat(maxDrive)) return false;
       }
       return true;
     });
-  }, [activities, search, filters, maxDrive]);
+  }, [activities, search, selectedTypes, selectedGenres, chipFilters, maxDrive]);
 
-  // ---- Init map once (only when map view is mounted) ----
+  // ---- Create the map when the map view mounts; destroy it when leaving. ----
+  // Destroying on leave is essential: when view switches to "ratings", React
+  // unmounts the map container. If we kept the old Leaflet instance, on return
+  // it would be bound to a destroyed DOM node and render blank. So we tear it
+  // down and rebuild fresh each time the map view appears.
   useEffect(() => {
     if (view !== "map") return;
-    if (mapRef.current || !mapEl.current) return;
+    if (!mapEl.current) return;
+
     const map = L.map(mapEl.current).setView(LA_CENTER, 11);
-    // CARTO Positron: clean basemap, no freeway exit shields, free, no key.
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       {
-        attribution:
-          '&copy; OpenStreetMap contributors &copy; CARTO',
+        attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
         subdomains: "abcd",
         maxZoom: 20,
       }
     ).addTo(map);
     mapRef.current = map;
+    setMapReady(true);
+    // Recalc size on the next tick once the container has its real dimensions.
+    setTimeout(() => map.invalidateSize(), 0);
+
+    return () => {
+      map.remove();              // tear down Leaflet + its DOM/handlers
+      mapRef.current = null;     // clear the ref so a fresh map is built on return
+      markersRef.current.clear();
+      setMapReady(false);
+    };
   }, [view]);
 
-  // If we leave and return to the map view, Leaflet needs a size recalc.
+  // Recalc size when the mobile pane flips to the map (container becomes visible).
   useEffect(() => {
     if (view === "map" && mapRef.current) {
       setTimeout(() => mapRef.current.invalidateSize(), 0);
     }
-  }, [view]);
+  }, [mobilePane]);
 
   // ---- Sync markers to filtered list ----
   useEffect(() => {
@@ -137,11 +187,18 @@ export default function App() {
       const lat = parseFloat(a.latitude);
       const lng = parseFloat(a.longitude);
       const marker = L.marker([lat, lng], { icon: makePinIcon(a.activity_type) }).addTo(map);
-      const meta = [a.activity_type, a.price, a.length].filter(Boolean).join(" · ");
+      const meta = [primaryType(a.activity_type), subCategory(a.activity_type), a.price, a.length]
+        .filter(Boolean)
+        .join(" · ");
+      const site = websiteLink(a);
+      const siteLink = site
+        ? `<a href="${site}" target="_blank" rel="noopener">Website</a>`
+        : "";
       marker.bindPopup(
         `<div class="popup-name">${a.name}</div>
          <div class="popup-meta">${meta}</div>
          <div class="popup-links">
+           ${siteLink}
            <a href="${googleLink(a.name)}" target="_blank" rel="noopener">Google</a>
            <a href="${yelpLink(a.name)}" target="_blank" rel="noopener">Yelp</a>
          </div>`
@@ -149,23 +206,39 @@ export default function App() {
       markersRef.current.set(a.name, marker);
     });
 
-    if (withCoords.length > 0 && (search || maxDrive || Object.values(filters).some(Boolean))) {
+    const filtersOn =
+      search ||
+      maxDrive ||
+      selectedTypes.size > 0 ||
+      selectedGenres.size > 0 ||
+      Object.values(chipFilters).some((s) => s && s.size > 0);
+    if (withCoords.length > 0 && filtersOn) {
       const bounds = L.latLngBounds(
         withCoords.map((a) => [parseFloat(a.latitude), parseFloat(a.longitude)])
       );
       map.fitBounds(bounds, { padding: [50, 50], maxZoom: 15 });
     }
-  }, [filtered, search, filters, view]);
+  }, [filtered, search, selectedTypes, selectedGenres, chipFilters, maxDrive, view, mapReady]);
 
   function handleResultClick(a) {
     if (!hasCoords(a) || view !== "map") return;
+    // On mobile the map is behind the List tab; surface it so the pin is visible.
+    setMobilePane("map");
     const map = mapRef.current;
     const marker = markersRef.current.get(a.name);
-    map.setView([parseFloat(a.latitude), parseFloat(a.longitude)], 15);
-    if (marker) marker.openPopup();
+    const lat = parseFloat(a.latitude);
+    const lng = parseFloat(a.longitude);
+    // Defer so the map pane is visible/sized (esp. on mobile) before centering.
+    setTimeout(() => {
+      map.invalidateSize();
+      map.setView([lat, lng], 15);
+      if (marker) marker.openPopup();
+    }, 50);
   }
 
-  const anyFilterActive = search || maxDrive || Object.values(filters).some(Boolean);
+  const anyChipActive = Object.values(chipFilters).some((s) => s && s.size > 0);
+  const anyFilterActive =
+    search || maxDrive || selectedTypes.size > 0 || selectedGenres.size > 0 || anyChipActive;
   const plottedCount = filtered.filter(hasCoords).length;
 
   // ---------- Ratings view ----------
@@ -215,8 +288,23 @@ export default function App() {
 
   // ---------- Map view ----------
   return (
-    <div className="app">
-      <aside className="sidebar">
+    <>
+      <div className="mobile-tabs">
+        <button
+          className={`mobile-tab ${mobilePane === "list" ? "active" : ""}`}
+          onClick={() => setMobilePane("list")}
+        >
+          List
+        </button>
+        <button
+          className={`mobile-tab ${mobilePane === "map" ? "active" : ""}`}
+          onClick={() => setMobilePane("map")}
+        >
+          Map
+        </button>
+      </div>
+      <div className="app">
+        <aside className={`sidebar ${mobilePane === "map" ? "mobile-hidden" : ""}`}>
         <div className="sidebar-header">
           <div className="brand-row">
             <h1>LA Activities</h1>
@@ -237,30 +325,76 @@ export default function App() {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
-          <div className="filter-row">
-            {FILTER_FIELDS.map(({ key, label }) => (
-              <select
-                key={key}
-                className="filter-select"
-                value={filters[key] || ""}
-                onChange={(e) =>
-                  setFilters((f) => ({ ...f, [key]: e.target.value }))
-                }
-              >
-                <option value="">{label}: all</option>
-                {(filterOptions[key] || []).map((v) => (
-                  <option key={v} value={v}>
-                    {v}
-                  </option>
-                ))}
-              </select>
+
+          {/* Grouped Type filter: type header chips with genre chips indented. */}
+          <div className="chip-group">
+            <div className="chip-group-label">Type</div>
+            {typeGroups.map(({ type, genres }) => (
+              <div className="type-block" key={type}>
+                <button
+                  className={`chip type-chip ${selectedTypes.has(type) ? "on" : ""}`}
+                  style={
+                    selectedTypes.has(type)
+                      ? { background: typeColor(type), borderColor: typeColor(type) }
+                      : { borderColor: typeColor(type) }
+                  }
+                  onClick={() => toggleInSet(setSelectedTypes, type)}
+                >
+                  <span className="chip-dot" style={{ background: typeColor(type) }} />
+                  {type}
+                </button>
+                {genres.length > 0 && (
+                  <div className="genre-chips">
+                    {genres.map((g) => {
+                      const id = `${type}|${g}`;
+                      return (
+                        <button
+                          key={id}
+                          className={`chip genre-chip ${selectedGenres.has(id) ? "on" : ""}`}
+                          onClick={() => toggleInSet(setSelectedGenres, id)}
+                        >
+                          {g}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
             ))}
+          </div>
+
+          {/* Simple multi-select chip filters: price, length, best time. */}
+          {CHIP_FILTERS.map((f) => {
+            const options = chipOptions[f.key] || [];
+            if (options.length === 0) return null;
+            const sel = chipFilters[f.key] || new Set();
+            return (
+              <div className="chip-group" key={f.key}>
+                <div className="chip-group-label">{f.label}</div>
+                <div className="chip-row">
+                  {options.map((v) => (
+                    <button
+                      key={v}
+                      className={`chip ${sel.has(v) ? "on" : ""}`}
+                      onClick={() => toggleChip(f.key, v)}
+                    >
+                      {v}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+
+          {/* Drive time stays a threshold dropdown (ordinal, not multi-select). */}
+          <div className="chip-group">
+            <div className="chip-group-label">Max drive from DTLA</div>
             <select
               className="filter-select"
               value={maxDrive}
               onChange={(e) => setMaxDrive(e.target.value)}
             >
-              <option value="">Drive: any</option>
+              <option value="">Any</option>
               <option value="15">≤ 15 min</option>
               <option value="30">≤ 30 min</option>
               <option value="45">≤ 45 min</option>
@@ -268,12 +402,15 @@ export default function App() {
               <option value="120">≤ 2 hrs</option>
             </select>
           </div>
+
           {anyFilterActive && (
             <button
               className="clear-btn"
               onClick={() => {
                 setSearch("");
-                setFilters({});
+                setSelectedTypes(new Set());
+                setSelectedGenres(new Set());
+                setChipFilters({});
                 setMaxDrive("");
               }}
             >
@@ -309,8 +446,11 @@ export default function App() {
                         className="type-dot"
                         style={{ background: typeColor(a.activity_type) }}
                       />
-                      {a.activity_type}
+                      {primaryType(a.activity_type)}
                     </span>
+                  )}
+                  {subCategory(a.activity_type) && (
+                    <span className="genre-label">{subCategory(a.activity_type)}</span>
                   )}
                   {a.price && (
                     <span className="price-chip" style={{ background: priceColor(a.price) }}>
@@ -388,7 +528,11 @@ export default function App() {
         </div>
       </aside>
 
-      <div className="map" ref={mapEl} />
-    </div>
+      <div
+        className={`map ${mobilePane === "list" ? "mobile-hidden" : ""}`}
+        ref={mapEl}
+      />
+      </div>
+    </>
   );
 }

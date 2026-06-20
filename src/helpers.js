@@ -79,6 +79,7 @@ const TYPE_COLORS = {
   Restaurant: "#e4572e",
   Bar: "#8e44ad",
   Cafe: "#c9863e",
+  Bakery: "#d98b5f",
   Hike: "#3a7d44",
   Outdoors: "#2e8b8b",
   Museum: "#3b6ea5",
@@ -86,10 +87,55 @@ const TYPE_COLORS = {
   Shopping: "#c2407a",
   "Day trip": "#5566cc",
 };
+
+// The CSV's activity_type may carry a subcategory after a pipe:
+// "Restaurant|Italian". primaryType() returns "Restaurant"; subCategory()
+// returns "Italian" (or "" if none). Color and the main Type filter key off
+// the primary; genre is a separate filter dimension.
+export function primaryType(rawType) {
+  return (rawType || "").split("|")[0].trim();
+}
+export function subCategory(rawType) {
+  const parts = (rawType || "").split("|");
+  return parts.length > 1 ? parts[1].trim() : "";
+}
+
 export function typeColor(type) {
-  return TYPE_COLORS[type] || "#777777";
+  // Tolerate being passed the full "Type|Genre" string.
+  return TYPE_COLORS[primaryType(type)] || "#777777";
 }
 export const TYPE_LEGEND = TYPE_COLORS;
+
+// Build a grouped structure of primary types, each with the set of genres that
+// appear within it, from the activity rows. Used to render the grouped Type
+// filter (type headers with their genres indented beneath).
+// Returns: [{ type: "Restaurant", genres: ["Italian","Mexican"] }, ...]
+export function buildTypeGroups(activities) {
+  const map = new Map(); // type -> Set(genres)
+  for (const a of activities) {
+    const t = primaryType(a.activity_type);
+    if (!t) continue;
+    if (!map.has(t)) map.set(t, new Set());
+    const g = subCategory(a.activity_type);
+    if (g) map.get(t).add(g);
+  }
+  return [...map.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([type, genres]) => ({ type, genres: [...genres].sort() }));
+}
+
+// Does a row match the active type/genre chip selection?
+// selectedTypes: Set of "Type" strings (whole-group selections)
+// selectedGenres: Set of "Type|Genre" strings (specific combos)
+// Empty selections on both => no type filtering (everything passes).
+export function matchesTypeSelection(a, selectedTypes, selectedGenres) {
+  if (selectedTypes.size === 0 && selectedGenres.size === 0) return true;
+  const t = primaryType(a.activity_type);
+  if (selectedTypes.has(t)) return true;
+  const g = subCategory(a.activity_type);
+  if (g && selectedGenres.has(`${t}|${g}`)) return true;
+  return false;
+}
 
 // ---------- Price color scale (green -> red) ----------
 // Free is its own green; $..$$$$ ramps green->red.

@@ -77,6 +77,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex-shrink: 0;
+  max-height: 45vh;
+  overflow-y: auto;
 }
 
 .search-input {
@@ -93,6 +96,55 @@ body {
 .search-input:focus { border-color: var(--side-accent); }
 
 .filter-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ---------- Chip filters ---------- */
+.chip-group { display: flex; flex-direction: column; gap: 6px; }
+.chip-group-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--side-muted);
+  font-weight: 600;
+}
+.chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--side-elev);
+  border: 1px solid var(--side-line);
+  color: var(--side-ink);
+  font-size: 0.8rem;
+  padding: 6px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.1;
+  transition: background 0.12s, border-color 0.12s;
+}
+.chip:hover { border-color: var(--side-accent); }
+.chip.on {
+  background: var(--side-accent);
+  border-color: var(--side-accent);
+  color: #06140e;
+  font-weight: 600;
+}
+.chip-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+/* Type group: header chip on its own line, genres indented under it */
+.type-block { display: flex; flex-direction: column; gap: 5px; margin-bottom: 4px; }
+.type-chip { align-self: flex-start; font-weight: 600; }
+/* selected type chip uses its own type color (set inline); keep text readable */
+.type-chip.on { color: #fff; }
+.genre-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-left: 16px;        /* the indent that shows genres belong to the type */
+  border-left: 2px solid var(--side-line);
+  margin-left: 4px;
+}
+.genre-chip { font-size: 0.74rem; padding: 4px 9px; }
 
 .filter-select {
   flex: 1 1 calc(50% - 4px);
@@ -118,7 +170,7 @@ body {
 .clear-btn:hover { text-decoration: underline; }
 
 /* ---------- Results list ---------- */
-.results { flex: 1; overflow-y: auto; padding: 8px 12px 20px; }
+.results { flex: 1; overflow-y: auto; padding: 8px 12px 20px; min-height: 0; }
 
 .result-card {
   padding: 11px 12px;
@@ -154,6 +206,7 @@ body {
 
 .type-tag { display: inline-flex; align-items: center; gap: 5px; font-weight: 500; color: var(--side-ink); }
 .type-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+.genre-label { font-size: 0.74rem; color: var(--side-muted); font-style: italic; }
 
 .price-chip {
   padding: 1px 7px;
@@ -229,10 +282,62 @@ body {
 .rating-item .comment { font-size: 0.88rem; color: var(--ink); margin-top: 4px; }
 .rating-item .meta { font-size: 0.78rem; color: var(--muted); margin-top: 6px; }
 
+/* ---------- Mobile tab bar (hidden on desktop) ---------- */
+.mobile-tabs { display: none; }
+
 /* ---------- Responsive ---------- */
-@media (max-width: 720px) {
-  .app { flex-direction: column; }
-  .sidebar { width: 100%; height: 50%; }
-  .map { height: 50%; }
-  .ratings-page { height: 50%; }
+@media (max-width: 760px) {
+  .app {
+    flex-direction: column;
+  }
+
+  /* Mobile tab bar: switch between full-screen list and full-screen map */
+  .mobile-tabs {
+    display: flex;
+    flex-shrink: 0;
+    background: var(--side-bg);
+    border-bottom: 1px solid var(--side-line);
+    position: relative;
+    z-index: 1100;
+  }
+  .mobile-tab {
+    flex: 1;
+    background: none;
+    border: none;
+    color: var(--side-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px 0;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  .mobile-tab.active {
+    color: var(--side-ink);
+    border-bottom-color: var(--side-accent);
+  }
+
+  /* Sidebar and map each take the FULL remaining height, not 50%.
+     Visibility is controlled by the mobile tab (classes added in JS). */
+  .sidebar {
+    width: 100%;
+    height: 100%;
+    min-height: 0; /* allow inner .results to scroll properly in flex column */
+  }
+  .map {
+    height: 100%;
+  }
+  .ratings-page {
+    height: 100%;
+    padding: 18px 16px;
+  }
+
+  /* When a mobile pane is hidden, remove it from layout entirely. */
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  /* Roomier touch targets on the dense cards. */
+  .result-card { padding: 13px 14px; }
+  .filter-select, .search-input { font-size: 0.95rem; padding: 10px 12px; }
+  .star { font-size: 1.3rem; }
 }

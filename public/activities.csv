@@ -1,155 +1,129 @@
 name,activity_type,price,length,best_time,drive_min_from_dtla,visited,latitude,longitude,website,geocode_query,notes
-Elefante,Restaurant,$$$,1-3h,Evening,18,no,,,,"Elefante, Venice, Los Angeles",ESTIMATE | prev geocode failed - try address | GEOCODE FAILED
-Macaroni Republic,Restaurant,$$,1-3h,Evening,12,no,,,,"Macaroni Republic, Los Angeles",ESTIMATE | GEOCODE FAILED
-Donne,Restaurant,$$,1-3h,Evening,15,no,,,,"Donne, Los Angeles",ESTIMATE | GEOCODE FAILED
-Wax Paper,Restaurant,$,<1h,Lunch,14,no,34.061319,-118.238551,,"Wax Paper, Los Angeles","ESTIMATE | matched: Wax Paper, North Broadway, New Chinatown, Civic Ce"
-Villa's Tacos,Restaurant,$,<1h,Anytime,12,no,34.108600,-118.196943,,Villa's Tacos Highland Park Los Angeles CA,"ESTIMATE | matched: Villa's Tacos, 5455, North Figueroa Street, Highla"
-Pantry West,Restaurant,$$,1-3h,Anytime,20,no,34.054736,-118.384827,,"Pantry West, Los Angeles",ESTIMATE | distinct from 'Pantry' - verify | matched: JFS/SOVA Community Food & Resource Program Food Pa
-Red Bird,Restaurant,$$$$,1-3h,Evening,5,no,33.991332,-118.097309,,"Redbird, Los Angeles","ESTIMATE | matched: Redbird Drive, Pico Rivera, Los Angeles County, Ca"
-Rainforest Cafe,Restaurant,$$,1-3h,Anytime,40,no,34.072401,-117.548719,,"Rainforest Cafe, Ontario Mills, CA","ESTIMATE | likely Ontario Mills location | matched: Rainforest Cafe, 1, Mills Circle, Ontario Mills, O"
-Slice and Pint,Restaurant,$$,1-3h,Evening,16,no,33.851553,-118.389526,,"Slice and Pint, Los Angeles","ESTIMATE | matched: The Slice and Pint, 601, Pacific Coast Highway, Re"
-Companion,Restaurant,$$$,1-3h,Evening,16,no,33.978701,-118.405811,,"Companion, Los Angeles","ESTIMATE | matched: BFF Companion, West Bluff Creek Drive, Los Angeles"
-Cosetta,Restaurant,$$,1-3h,Evening,15,no,,,,"Cosetta, Los Angeles",ESTIMATE | GEOCODE FAILED
-Le Great Outdoor,Restaurant,$$,1-3h,Evening,14,no,,,,"Le Grand Outdoor, Los Angeles",ESTIMATE | spelling uncertain | GEOCODE FAILED
-Beethoven Market,Restaurant,$,<1h,Lunch,22,no,34.006175,-118.446354,,"Beethoven Market, Los Angeles","ESTIMATE | matched: Beethoven Market & Liquor, Palms Boulevard, Mar Vi"
-Gjusta,Restaurant,$$$,1-3h,Morning,20,no,33.995274,-118.474578,,"Gjusta, Venice, Los Angeles","ESTIMATE | matched: Gjusta, Sunset Avenue, Venice, Los Angeles, Los An"
-De La Nonna,Restaurant,$$,1-3h,Evening,6,no,34.045048,-118.237588,,"De La Nonna, Los Angeles","ESTIMATE | Arts District | matched: De La Nonna, East 4th Place, Arts District, Downto"
-Great White,Restaurant,$$,1-3h,Morning,20,yes,33.987724,-118.471782,,Great White restaurant Venice Los Angeles CA,"ESTIMATE | matched: Great White, Windward Avenue, Venice, Los Angeles,"
-Cafe on 27,Restaurant,$$,1-3h,Morning,18,no,34.082176,-118.317362,,"Cafe on 27, Los Angeles","ESTIMATE | matched: Cafe, Clinton Street, Larchmont, Hancock Park, Hol"
-Calabra,Restaurant,$$$,1-3h,Evening,18,no,,,,"Calabra, Santa Monica",ESTIMATE | Santa Monica Proper rooftop | GEOCODE FAILED
-John and Vinny's,Restaurant,$$$,1-3h,Evening,12,no,,,,"Jon and Vinny's, Los Angeles",ESTIMATE | GEOCODE FAILED
-All'Antico Vinaio,Restaurant,$,<1h,Lunch,10,yes,34.063646,-118.308789,,"All'Antico Vinaio, Los Angeles","ESTIMATE | matched: All'Antico Vinaio, 3925, West 6th Street, Koreatow"
-Alba,Restaurant,$$$,1-3h,Evening,12,no,44.015990,12.641628,,"Alba, Los Angeles","ESTIMATE | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Los Angeles, Viale Alessandro Tassoni, Alba, Riccione, Rimin]"
-Union Pasadena,Restaurant,$$$,1-3h,Evening,18,no,34.146898,-118.149656,,"Union, Pasadena, CA","ESTIMATE | matched: Union, 37, East Union Street, Old Pasadena, Pasade"
-Burger She Wrote,Restaurant,$$,1-3h,Lunch,14,no,34.075949,-118.352477,,"Burger She Wrote, Los Angeles","ESTIMATE | matched: Burger she wrote, 7454 1/2, Beverly Boulevard, Fai"
-Negroni,Restaurant,$$$,1-3h,Evening,14,yes,,,,"Negroni, Los Angeles",ESTIMATE | GEOCODE FAILED
-Pantry,Restaurant,$$,1-3h,Anytime,5,no,,,,"The Original Pantry Cafe, Los Angeles",ESTIMATE | distinct from 'Pantry West' | GEOCODE FAILED
-The Woods,Restaurant,$$,1-3h,Evening,16,no,34.090914,-118.369606,,"The Woods, Los Angeles","ESTIMATE | matched: The Woods WeHo, 8271, Santa Monica Boulevard, West"
-Tea At Shiloh,Restaurant,$$,1-3h,Afternoon,16,no,,,,"Tea at Shiloh, Los Angeles",ESTIMATE | GEOCODE FAILED
-Dog People,Restaurant,$$,1-3h,Evening,14,no,,,,"Dog People, Los Angeles",ESTIMATE | GEOCODE FAILED
-Seco,Restaurant,$$,1-3h,Evening,15,no,34.117476,-118.168565,,"Seco, Los Angeles","ESTIMATE | matched: Arroyo Seco, Pasadena Council District 1, South Pa"
-Wife and the Somm,Restaurant,$$$,1-3h,Evening,16,no,,,,"Wife and the Somm, Los Angeles",ESTIMATE | GEOCODE FAILED
-Hippo,Restaurant,$$$,1-3h,Evening,12,no,34.110490,-118.190388,,"Hippo, Highland Park, Los Angeles","ESTIMATE | matched: Hippo, 5916 1/2, North Figueroa Street, Highland P"
-Etra,Restaurant,$$$,1-3h,Evening,12,no,,,,"Etra, Los Angeles",ESTIMATE | GEOCODE FAILED
-Cento Pasta + Raw Bar,Restaurant,$$$,1-3h,Evening,10,no,,,,"Cento Pasta Bar, Los Angeles",ESTIMATE | see 'Cento Bar' - may be same | GEOCODE FAILED
-Blossom,Restaurant,$$,1-3h,Lunch,8,no,34.047390,-118.247690,,"Blossom, Los Angeles","ESTIMATE | matched: Blossom, Winston Street, Toy District, Historic Co"
-Flippers,Restaurant,$$,1-3h,Anytime,16,no,,,,"Flippers, Los Angeles",ESTIMATE | GEOCODE FAILED
-Messob,Restaurant,$$,1-3h,Evening,12,no,,,,"Messob Ethiopian, Los Angeles",ESTIMATE | Little Ethiopia | GEOCODE FAILED
-Tatami Sushi,Restaurant,$$,1-3h,Evening,18,no,,,,"Tatami Sushi, Los Angeles",ESTIMATE | GEOCODE FAILED
-Papi's,Restaurant,$,<1h,Anytime,14,yes,34.042597,-118.252800,,"Papi's, Los Angeles","ESTIMATE | matched: Papi's Pizza, 109, East 8th Street, Jewelry Distri"
-Leo's Tacos,Restaurant,$,<1h,Late night,12,yes,,,,"Leo's Tacos Truck, Los Angeles",ESTIMATE | prev geocode failed | GEOCODE FAILED
-Park's Finest,Restaurant,$$,1-3h,Evening,8,yes,34.066679,-118.254419,,"The Park's Finest BBQ, Los Angeles","ESTIMATE | matched: The Park's Finest BBQ, 1267, West Temple Street, A"
-Tartine,Restaurant,$$,<1h,Morning,12,yes,34.092321,-118.279994,,"Tartine, Los Angeles","ESTIMATE | matched: Tartine, 3921, West Sunset Boulevard, Sunset Junct"
-Carney's,Restaurant,$,<1h,Anytime,14,yes,34.095935,-118.371905,,"Carney's, Sunset Blvd, Los Angeles","ESTIMATE | matched: Carney's Restaurant, 8351, West Sunset Boulevard,"
-Ten-KBBQ,Restaurant,$$,1-3h,Evening,12,yes,,,,"Ten KBBQ, Los Angeles",ESTIMATE | GEOCODE FAILED
-Hawt Mess,Restaurant,$$,1-3h,Lunch,14,yes,,,,"Hawt Mess, Los Angeles",ESTIMATE | GEOCODE FAILED
-Uovo,Restaurant,$$,1-3h,Evening,16,yes,34.143037,-118.131955,,"Uovo, Los Angeles","ESTIMATE | matched: Uovo, 146, South Lake Avenue, South Lake Ave, Pasa"
-Secret Slice,Restaurant,$,<1h,Late night,12,yes,,,,"Secret Slice, Los Angeles",ESTIMATE | GEOCODE FAILED
-Squirl,Restaurant,$$,<1h,Morning,8,no,34.084516,-118.286695,,"Sqirl, Los Angeles","ESTIMATE | spelled 'Sqirl' | matched: Sqirl, 720, North Virgil Avenue, Virgil Village, E"
-Blondie,Restaurant,$$,1-3h,Evening,12,no,10.142655,-85.451276,,"Blondie, Los Angeles","ESTIMATE | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Blondie, Avenida 2, Nicoya, Los Ángeles, Nicoya, Guanacaste,]"
-Manuela,Restaurant,$$$,1-3h,Evening,8,no,3.999054,-73.767002,,"Manuela, Los Angeles","ESTIMATE | Arts District | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Los Angeles, Manuela, Acacías, Piedemonte, Meta, RAP (Especi]"
-Laurel Hardware,Restaurant,$$$,1-3h,Evening,18,no,34.090584,-118.364416,,"Laurel Hardware, West Hollywood","ESTIMATE | matched: Laurel Hardware, 7984, Santa Monica Boulevard, Wes"
-Donna's Echo Park,Restaurant,$$,1-3h,Evening,8,no,,,,"Donna's, Echo Park, Los Angeles",ESTIMATE | GEOCODE FAILED
-Juneshine,Bar,$$,1-3h,Evening,20,no,33.999106,-118.480937,,"JuneShine, Los Angeles","ESTIMATE | matched: JuneShine, 2914, Main Street, Ocean Park, Santa Mo"
-71 Above,Bar,$$$,1-3h,Evening,5,no,34.051154,-118.254553,,"71Above, Los Angeles","ESTIMATE | DTLA skyscraper | matched: 71Above, 633, West 5th Street, Jewelry District, H"
-Bonsai,Bar,$$,1-3h,Evening,14,no,,,,"Bonsai bar, Los Angeles",ESTIMATE | BOTH BAR & CAFE in list - confirm/split | GEOCODE FAILED
-Upside Down Bar,Bar,$$,1-3h,Late night,16,no,,,,"Upside Down Bar, Los Angeles",ESTIMATE | GEOCODE FAILED
-Brennan's Turtle Racing,Bar,$$,1-3h,Evening,22,no,,,,"Brennan's, Marina del Rey",ESTIMATE | GEOCODE FAILED
-No Vacancy,Bar,$$$,1-3h,Late night,12,no,34.102229,-118.332446,,"No Vacancy, Los Angeles","ESTIMATE | matched: No Vacancy, 1727, North Hudson Avenue, Yucca Corri"
-Brass Monkey,Bar,$$,1-3h,Late night,10,no,34.061059,-118.298909,,"Brass Monkey, Los Angeles","ESTIMATE | Koreatown | matched: The Brass Monkey, South Mariposa Avenue, Koreatown"
-The Varnish,Bar,$$,1-3h,Late night,6,no,34.044650,-118.249301,,"The Varnish, Los Angeles","ESTIMATE | matched: The Varnish, 118, East 6th Street, Gallery Row, Hi"
-La Descarga,Bar,$$$,1-3h,Late night,10,no,34.092086,-118.309411,,"La Descarga, Los Angeles","ESTIMATE | matched: la descarga, 1159, North Western Avenue, Hollywood"
-Death and Co LA,Bar,$$$,1-3h,Late night,8,no,34.045723,-118.235715,,"Death & Co, Los Angeles","ESTIMATE | matched: Death & Co - Los Angeles, East 3rd Street, Little"
-Thunderbolt,Bar,$$,1-3h,Evening,6,no,34.066523,-118.254221,,"Thunderbolt, Los Angeles","ESTIMATE | matched: Thunderbolt, 1255, West Temple Street, Angeleno He"
-Bar Lis,Bar,$$$,1-3h,Evening,14,no,,,,"Bar Lis, Los Angeles",ESTIMATE | Hollywood rooftop | GEOCODE FAILED
-Perch,Bar,$$$,1-3h,Evening,5,no,34.048944,-118.251397,,"Perch, Los Angeles","ESTIMATE | DTLA rooftop | matched: Perch, South Hill Street, Gallery Row, Historic Co"
-The Rendition Room,Bar,$$$,1-3h,Late night,18,no,,,,"The Rendition Room, Los Angeles",ESTIMATE | GEOCODE FAILED
-Lock and Key,Bar,$$,1-3h,Late night,10,no,34.069371,-118.291900,,"Lock & Key, Los Angeles","ESTIMATE | Koreatown | matched: Lock & Key, 239, South Vermont Avenue, Koreatown,"
-Good Times at Davey Wayne's,Bar,$$,1-3h,Late night,12,no,34.100236,-118.324029,,"Good Times at Davey Wayne's, Los Angeles","ESTIMATE | matched: Good Times at Davey Wayne's, 1611, El Centro Avenu"
-Clifton's Republic,Bar,$$,1-3h,Late night,6,no,34.045366,-118.252907,,"Clifton's Republic, Los Angeles","ESTIMATE | matched: Clifton's Republic, South Broadway, Jewelry Distri"
-The Friend Bar,Bar,$,1-3h,Late night,10,no,,,,"The Friend, Silver Lake, Los Angeles",ESTIMATE | GEOCODE FAILED
-Cento Bar,Bar,$$$,1-3h,Evening,10,no,40.351578,-3.697985,,"Cento, Los Angeles","ESTIMATE | see 'Cento Pasta + Raw Bar' | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Cento Municipal de Mayores Nuestra Señora de los Ángeles, 3,]"
-Bar 82,Bar,$$,1-3h,Late night,12,no,10.963854,-74.841200,,"Bar 82, Los Angeles","ESTIMATE | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Los Ángeles III, Localidad Suroccidente, Perímetro Urbano Ba]"
-OSA Rooftop,Bar,$$$,1-3h,Evening,16,no,,,,"OSA rooftop, Los Angeles",ESTIMATE | GEOCODE FAILED
-Kiss Kiss Bang Bang,Bar,$$,1-3h,Late night,14,no,,,,"Kiss Kiss Bang Bang, Los Angeles",ESTIMATE | disco bar | GEOCODE FAILED
-Tiki Kai,Bar,$$,1-3h,Evening,22,no,,,,"Tiki Kai, Los Angeles",ESTIMATE | GEOCODE FAILED
-Prank Bar,Bar,$$,1-3h,Late night,12,no,,,,"Prank Bar, Los Angeles",ESTIMATE | GEOCODE FAILED
-The Buttery,Cafe,$$,<1h,Morning,16,no,,,,"The Buttery, Los Angeles",ESTIMATE | GEOCODE FAILED
-Olive and James,Cafe,$$,<1h,Morning,14,no,,,,"Olive and June, Los Angeles",ESTIMATE | name uncertain | GEOCODE FAILED
-Halo,Cafe,$$,<1h,Morning,14,no,34.052574,-118.252299,,"Halo, Los Angeles","ESTIMATE | matched: Halo, South Grand Avenue, Bunker Hill, Downtown, L"
-Spoke Bicycle Cafe,Cafe,$$,1-3h,Morning,12,no,34.105026,-118.243533,,"Spoke Bicycle Cafe, Los Angeles","ESTIMATE | Frogtown | matched: Spoke Bicycle Cafe, 3050, Los Angeles River Bike P"
-El Matador,Cafe,$$,<1h,Morning,16,no,,,,"El Matador cafe, Los Angeles",ESTIMATE | also a Malibu beach name | GEOCODE FAILED
-Modu,Cafe,$$,<1h,Morning,14,no,34.118716,-118.191956,,"Modu, Los Angeles","ESTIMATE | matched: Modu Cafe, 5805, York Boulevard, Highland Park, Lo"
-Dolce,Cafe,$$,<1h,Afternoon,14,no,33.972469,-118.457497,,"Dolce, Los Angeles","ESTIMATE | matched: Via Dolce, Los Angeles, Los Angeles County, Califo"
-Bacio di Latte,Cafe,$,<1h,Afternoon,12,no,34.145104,-118.395506,,"Bacio di Latte, Los Angeles","ESTIMATE | ice cream | matched: Bacio di Latte, 12109, Ventura Place, Studio City"
-Mewame,Cafe,$,<1h,Afternoon,14,no,,,,"Mewame, Los Angeles",ESTIMATE | ice cream | GEOCODE FAILED
-Awan,Cafe,$,<1h,Afternoon,16,no,33.998416,-118.472907,,"Awan, Los Angeles","ESTIMATE | ice cream | matched: Awan, 310, Rennie Avenue, Venice, Los Angeles, Los"
-Dialog Cafe,Cafe,$$,<1h,Morning,16,no,,,,"Dialog Cafe, West Hollywood",ESTIMATE | GEOCODE FAILED
-Stagger,Cafe,$$,<1h,Morning,12,no,34.058156,-118.293777,,"Stagger, Los Angeles","ESTIMATE | matched: Stagger, South Berendo Street, Koreatown, Los Ange"
-Intelligentsia,Cafe,$$,<1h,Morning,8,no,34.092146,-118.280369,,Intelligentsia Coffee Silver Lake Los Angeles CA,"ESTIMATE | matched: Intelligentsia Coffee Silver Lake Coffeebar, 3922,"
-Blue Bottle,Cafe,$$,<1h,Morning,12,no,34.048296,-118.491181,,"Blue Bottle Coffee, Los Angeles","ESTIMATE | MANY locations - pick one | matched: Blue Bottle Coffee, 13050, West San Vicente Boulev"
-Verve Coffee Roasters,Cafe,$$,<1h,Morning,12,no,33.885861,-118.408176,,"Verve Coffee Roasters, Los Angeles","ESTIMATE | multiple locations | matched: Verve Coffee Roasters, Manhattan Beach Boulevard,"
-Go Get Em Tiger,Cafe,$$,<1h,Morning,12,no,34.099941,-118.290252,,"Go Get Em Tiger, Los Angeles","ESTIMATE | multiple locations | matched: Go Get 'Em Tiger, 4630, Hollywood Boulevard, Los F"
-Alfred Tea Room,Cafe,$$,<1h,Afternoon,14,no,,,,"Alfred Tea Room, Los Angeles",ESTIMATE | GEOCODE FAILED
-MatchaBar,Cafe,$$,<1h,Morning,12,no,,,,"MatchaBar, Los Angeles",ESTIMATE | GEOCODE FAILED
-Coffee Dose,Cafe,$$,<1h,Morning,10,no,,,,"Coffee Dose, Los Angeles",ESTIMATE | GEOCODE FAILED
-Cha Cha Matcha,Cafe,$$,<1h,Morning,12,no,33.990729,-118.465838,,"Cha Cha Matcha, Los Angeles","ESTIMATE | matched: Cha Cha Matcha, California Avenue, Venice, Los Ang"
-Canyon Coffee,Cafe,$$,<1h,Morning,14,no,34.081377,-118.254745,,"Canyon Coffee, Los Angeles","ESTIMATE | matched: Canyon Coffee, Delta Street, Echo Park, Los Angele"
-The Ivy,Cafe,$$$$,1-3h,Lunch,12,no,34.012249,-118.495445,,"The Ivy, Los Angeles","ESTIMATE | upscale restaurant not just cafe | matched: Ivy at the Shore, 1535, Ocean Avenue, Downtown San"
-Kissaten Corazon,Cafe,$$,<1h,Morning,12,no,,,,"Kissaten Corazon, Los Angeles",ESTIMATE | GEOCODE FAILED
-Little Miss Cafe,Cafe,$$,<1h,Morning,12,yes,,,,"Little Miss Cafe, Los Angeles",ESTIMATE | GEOCODE FAILED
-Alfred Coffee,Cafe,$$,<1h,Morning,14,yes,33.946341,-118.407313,,"Alfred Coffee, Los Angeles","ESTIMATE | multiple locations | matched: Alfred Coffee, World Way, Westchester, Los Angeles"
-Ideology,Cafe,$$,<1h,Morning,12,yes,34.144298,-118.153233,,"Ideology Coffee, Los Angeles","ESTIMATE | matched: Ideology Coffee, 132, West Green Street, Pasadena"
-Archives of Us,Cafe,$$,<1h,Morning,12,yes,34.031033,-118.281557,,"Archives of Us, Los Angeles",ESTIMATE | matched: ONE National Gay & Lesbian Archives at the USC Lib
-Kulturas Ice Cream Bar,Cafe,$,<1h,Evening,14,no,34.150113,-118.100345,,"Kulturas, Los Angeles","ESTIMATE | ice cream bar | matched: Kulturas Latin Kitchen & Cantina, 187, North Sierr"
-Bricks and Scones,Cafe,$$,1-3h,Morning,12,no,,,,"Bricks and Scones, Los Angeles",ESTIMATE | Larchmont | GEOCODE FAILED
-At Gigi's,Cafe,$$,<1h,Morning,14,no,,,,"At Gigi's, Los Angeles",ESTIMATE | GEOCODE FAILED
-Echo Park,Outdoors,Free,1-3h,Afternoon,8,no,34.081152,-118.270437,,"Echo Park Lake, Los Angeles","ESTIMATE | matched: Comfort Inn Los Angeles Near Hollywood, 2717, West"
-Echo Park Swan Boats,Outdoors,$,1-3h,Afternoon,8,no,,,,"Echo Park Lake Boat Rentals, Los Angeles",ESTIMATE | may dedupe with Echo Park | GEOCODE FAILED
-Open Yoga Studio,Activity,$$,1-3h,Morning,14,no,,,,"Open Space Yoga, Los Angeles",ESTIMATE | name uncertain | GEOCODE FAILED
-Venice Canals,Outdoors,Free,1-3h,Afternoon,20,no,,,,Venice Canals Historic District Los Angeles CA,ESTIMATE | prev geocode failed | GEOCODE FAILED
-Beverly Cinema,Activity,$,1-3h,Evening,12,no,34.076412,-118.345750,,"New Beverly Cinema, Los Angeles","ESTIMATE | matched: New Beverly Cinema, 7165, Beverly Boulevard, Hanco"
-Kings Game,Activity,$$$,1-3h,Evening,5,yes,34.042998,-118.267135,,"Crypto.com Arena, Los Angeles","ESTIMATE | LA Kings hockey | matched: Crypto.com Arena, 1111, South Figueroa Street, Sou"
-Malibu Tide Pools,Outdoors,Free,1-3h,Morning,45,yes,,,,"Malibu tide pools, Malibu CA",ESTIMATE | GEOCODE FAILED
-Point Lobos,Day trip,$,Full-day,Anytime,330,no,36.514732,-121.942788,,"Point Lobos State Natural Reserve, Carmel CA","ESTIMATE | NOT LA - Carmel ~5.5hr drive | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Point Lobos State Natural Reserve, Carmel Highlands, Montere]"
-City Walk,Activity,Free,1-3h,Evening,20,yes,34.136314,-118.354859,,"Universal CityWalk, Universal City CA","ESTIMATE | matched: Universal CityWalk Hollywood, Universal City, Los"
-Disneyland,Activity,$$$$,Full-day,Anytime,45,yes,33.813651,-117.919735,,"Disneyland, Anaheim CA","ESTIMATE | NOT LA - Anaheim | matched: Disneyland, 1313, South Harbor Boulevard, Anaheim"
-Universal Studios,Activity,$$$$,Full-day,Anytime,20,yes,34.139232,-118.354383,,"Universal Studios Hollywood, Universal City CA","ESTIMATE | matched: Universal Studios Hollywood, 100, Sheraton Drive,"
-Palos Verdes Tidepools,Outdoors,Free,1-3h,Morning,40,yes,,,,"Palos Verdes tide pools, CA",ESTIMATE | GEOCODE FAILED
-Santa Monica Mountains,Outdoors,Free,Half-day,Morning,35,no,34.110110,-118.798622,,"Santa Monica Mountains National Recreation Area, CA","ESTIMATE | matched: Santa Monica Mountains National Recreation Area, L"
-Santa Monica Pier,Outdoors,Free,1-3h,Afternoon,25,yes,34.008896,-118.497400,,Santa Monica Pier Santa Monica CA,"ESTIMATE | matched: Santa Monica Pier, SM Pier Walkway East, Downtown"
-Palm Reading,Activity,$$,<1h,Anytime,,no,,,,,ESTIMATE | REVIEW - no fixed location | NO QUERY
-Regal 4DX,Activity,$$,1-3h,Evening,8,no,,,,"Regal LA Live 4DX, Los Angeles",ESTIMATE | GEOCODE FAILED
-USC Football Game,Activity,$$$,Half-day,Afternoon,10,no,34.013916,-118.287800,,Los Angeles Memorial Coliseum,"ESTIMATE | matched: Los Angeles Memorial Coliseum, 3911, South Figuero"
-Mulholland Trail,Hike,Free,1-3h,Morning,18,no,34.132843,-118.310916,,"Mulholland Trail, Los Angeles","ESTIMATE | matched: Mulholland Trail, Los Feliz Neighborhood Council D"
-Shakespeare in Topanga Canyon,Activity,$$,Half-day,Evening,30,no,34.111313,-118.592048,,"Theatricum Botanicum, Topanga CA","ESTIMATE | matched: Theatricum Botanicum, 1419, North Topanga Canyon B"
-Paramount Ranch,Outdoors,Free,1-3h,Morning,40,no,,,,"Paramount Ranch, Agoura Hills CA",ESTIMATE | GEOCODE FAILED
-Chateau Marmont,Activity,$$$$,1-3h,Evening,14,no,34.098250,-118.368405,,"Chateau Marmont, Los Angeles","ESTIMATE | matched: Chateau Marmont, 8221, West Sunset Boulevard, Suns"
-Ojai,Day trip,$$,Full-day,Anytime,90,no,34.448050,-119.242889,,Ojai CA,"ESTIMATE | NOT LA - ~90min | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Ojai, Ventura County, California, 93023, United States]"
-Magic Tree Hike,Hike,Free,1-3h,Morning,16,no,34.136026,-118.332110,,"Wisdom Tree trail, Los Angeles","ESTIMATE | name uncertain - Wisdom Tree? | matched: Wisdom Tree, Aileen Getty Ridge Trail, Los Angeles"
-Runyon Canyon Hike,Hike,Free,1-3h,Morning,14,yes,34.112036,-118.350101,,Runyon Canyon Park Los Angeles CA,"ESTIMATE | matched: Runyon Canyon Park, Hollywood, Los Angeles, Los An"
-Canal Market,Activity,$,1-3h,Afternoon,,no,,,,"Canal market, Los Angeles",ESTIMATE | REVIEW - ambiguous | GEOCODE FAILED
-Photo Booth Museum,Museum,$,1-3h,Afternoon,12,no,,,,"Photo booth museum, Los Angeles",ESTIMATE | name uncertain | GEOCODE FAILED
-Natural History Museum,Museum,$$,Half-day,Afternoon,10,no,34.017080,-118.288691,,Natural History Museum of Los Angeles County,"ESTIMATE | matched: Natural History Museum of Los Angeles County, 900,"
-Malibu Creek,Outdoors,Free,Half-day,Morning,40,no,34.100354,-118.712707,,"Malibu Creek State Park, Calabasas CA","ESTIMATE | matched: Malibu Creek State Park Ranger Station Kiosk, 1925"
-Obscura Collective,Shopping,$$,<1h,Afternoon,12,no,,,,"Obscura Collective, Los Angeles",ESTIMATE | thrift | GEOCODE FAILED
-The Grove,Shopping,$$,1-3h,Afternoon,12,yes,34.072589,-118.357739,,"The Grove, Los Angeles","ESTIMATE | matched: The Grove, 189, Fairfax, Los Angeles, Los Angeles"
-Lucky Strike,Activity,$$,1-3h,Evening,16,no,33.957783,-118.418058,,"Lucky Strike, Los Angeles","ESTIMATE | bowling | matched: Lucky Strike, 8731, Lincoln Boulevard, Westchester"
-The Last Bookstore,Activity,Free,1-3h,Anytime,6,yes,34.047668,-118.249723,,The Last Bookstore downtown Los Angeles CA,"ESTIMATE | 'Last Book LA' deduped here | matched: The Last Bookstore, 453, South Spring Street, Gall"
-123 Farms Lavender Night,Day trip,$$,Half-day,Evening,90,no,39.122977,-75.520770,,"123 Farms, Beaumont CA","ESTIMATE | NOT LA - Beaumont | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Beaumont Drive, Highland Acres, Kent County, Delaware, 19901]"
-Wildwood Canyon Park,Outdoors,Free,1-3h,Morning,20,no,34.210085,-118.292631,,"Wildwood Canyon Park, Burbank CA","ESTIMATE | matched: Wildwood Canyon Park, 10701, Burbank, Los Angeles"
-Warner Bros Studio Tour,Activity,$$$$,Half-day,Morning,20,no,,,,"Warner Bros Studio Tour Hollywood, Burbank CA",ESTIMATE | deduped (was twice) | GEOCODE FAILED
-Culver City,Activity,Free,Half-day,Anytime,16,yes,34.021122,-118.396466,,"Culver City, CA","ESTIMATE | matched: Culver City, Los Angeles County, California, 90232"
-Long Beach Japanese Garden,Outdoors,$,1-3h,Afternoon,30,no,33.785092,-118.119741,,"Earl Burns Miller Japanese Garden, Long Beach CA","ESTIMATE | matched: Earl Burns Miller Japanese Garden at CSULB, Los Al"
-Catalina Island Day,Day trip,$$$,Full-day,Anytime,120,no,33.388904,-118.423929,,"Catalina Island, Avalon CA","ESTIMATE | FERRY not drive - ~2hr total travel | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Santa Catalina Island, Avalon, Los Angeles County, Californi]"
-Santa Monica Farmer's Market,Activity,Free,1-3h,Morning,25,no,34.016598,-118.499062,,Santa Monica Farmers Market,"ESTIMATE | Wed + Sat | matched: Santa Monica Farmers Market, Arizona Avenue, Third"
-Beachwood Canyon Stairs,Hike,Free,1-3h,Morning,16,no,34.122292,-118.321384,,"Beachwood Canyon, Los Angeles","ESTIMATE | matched: Beachwood Canyon, Los Angeles, Los Angeles County,"
-Silverlake Flea Market,Shopping,$,1-3h,Morning,8,yes,,,,"Silver Lake Flea, Los Angeles",ESTIMATE | GEOCODE FAILED
-Bronson Caves,Outdoors,Free,<1h,Morning,16,no,,,,"Bronson Caves, Griffith Park, Los Angeles",ESTIMATE | GEOCODE FAILED
-Oak Glen,Day trip,$$,Full-day,Anytime,90,no,34.049457,-116.947805,,"Oak Glen, CA","ESTIMATE | NOT LA - fall trip | OUTSIDE LA BOUNDS (ok for day trips, verify others) [matched: Oak Glen, San Bernardino County, California, United States]"
-y2k Deadstock Store,Shopping,$$,<1h,Afternoon,6,no,34.035788,-118.271246,,1717 S Figueroa St Los Angeles CA 90015,"ESTIMATE | had explicit address | matched: 1717, South Figueroa Street, South Park, Pico-Unio"
-Will Rogers Beach,Outdoors,Free,1-3h,Afternoon,28,yes,34.033311,-118.531955,,"Will Rogers State Beach, Pacific Palisades CA","ESTIMATE | matched: Will Rogers State Beach, Pacific Palisades, Los An"
-Dodgers Game,Activity,$$$,Half-day,Evening,8,yes,34.073625,-118.239845,,"Dodger Stadium, Los Angeles","ESTIMATE | matched: Dodger Stadium, 1000, Vin Scully Avenue, Chinatown"
+Elephante,Restaurant|Italian,$$$,1-3h,Evening,24,no,34.015179,-118.497917,https://www.elephanterestaurants.com/,"Elephante, Venice, Los Angeles",
+Maccheroni Republic,Restaurant|Italian,$$$,1-3h,Evening,7,no,34.043491,-118.254967,https://maccheronirepublic.com/,"Maccheroni Republic, Los Angeles",
+Wax Paper,Restaurant|Sandwich,$,<1h,Lunch,18,no,34.102576,-118.243468,https://www.waxpaperco.com/,"Wax Paper, Los Angeles",
+Villa's Tacos,Restaurant|Mexican,$,<1h,Anytime,14,no,34.108695,-118.196339,https://villastacos.com/,Villa's Tacos Original Los Angeles CA,
+Pantry West,Cafe,$$,1-3h,Anytime,32,no,34.080558,-118.386937,https://pantrypantrypantry.com/,"Pantry West, Los Angeles",
+Red Bird,Restaurant|American,$$$$,1-3h,Evening,8,no,34.050499,-118.244049,https://redbird.la/,"Redbird, Los Angeles",
+Rainforest Cafe,Restaurant|American,$$,1-3h,Anytime,88,no,34.075149,-117.549245,https://www.rainforestcafe.com/,"Rainforest Cafe, Ontario CA",
+The Slice & Pint,Restaurant|Pizza,$$,1-3h,Evening,34,no,33.918904,-118.416959,https://www.thesliceandpint.com/,"The Slice & Pint, El Segundo",
+Companion,Restaurant|Italian,$$$,1-3h,Evening,28,no,33.996799,-118.458008,https://www.companion.la/,"Companion, Venice CA",
+Cosetta,Restaurant|Italian,$$,1-3h,Evening,22,no,34.020409,-118.452479,https://www.cosettala.com/,"Cosetta, Los Angeles",
+Le Great Outdoor,Restaurant|Mediterranean,$$,1-3h,Evening,20,no,34.027191,-118.468318,https://www.legreatoutdoor.com/,"Le Grand Outdoor, Los Angeles",
+Beethoven Market,Restaurant|Italian,$,<1h,Lunch,25,no,34.006097,-118.446397,https://www.beethovenmarket.com/,"Beethoven Market, Los Angeles",
+Gjusta,Bakery,$$$,1-3h,Morning,29,no,33.995209,-118.474373,https://www.gjusta.com/,"Gjusta, Venice, Los Angeles",
+De La Nonna,Restaurant|Pizza,$$,1-3h,Evening,11,no,34.043461,-118.234917,https://www.delanonna.com/,"De La Nonna, Los Angeles",
+Great White,Restaurant|American,$$,1-3h,Morning,20,no,34.075870,-118.323391,https://www.greatwhite.cafe/?srsltid=AfmBOoqZJRKKSsIVRdQTN-hCwrox2aHrwZuBbP8JS_Q4gmQjnKzrcz4t,Great White restaurant Los Angeles CA,
+Cafe on 27,Restaurant|American,$$,1-3h,Morning,56,no,34.119946,-118.592133,https://www.cafe-27.com/,"Cafe on 27, Los Angeles",
+Calabra,Restaurant|Mediterranean,$$$,1-3h,Evening,25,no,34.021532,-118.495259,https://www.properhotel.com/santa-monica/restaurants-bars/calabra/,"Calabra, Santa Monica",
+Jon and Vinny's,Restaurant|Italian,$$$,1-3h,Evening,25,no,34.078651,-118.361257,https://www.jonandvinnys.com/,"Jon and Vinny's, Los Angeles",
+All'Antico Vinaio,Restaurant|Sandwich,$,<1h,Lunch,23,no,34.063681,-118.308746,https://www.allanticovinaiousa.com/,"All'Antico Vinaio, Los Angeles",
+Alba,Restaurant|Italian,$$$,1-3h,Evening,31,no,34.082718,-118.375043,https://www.cucinaalba.com/location/alba-la/,"Alba, Los Angeles",
+Union Pasadena,Restaurant|Italian,$$$,1-3h,Evening,33,no,34.147011,-118.149681,https://www.unionpasadena.com/,"Union, Pasadena, CA",
+Burger She Wrote,Restaurant|Burger,$$,1-3h,Lunch,26,no,34.075964,-118.352481,https://burgershewrote.com/,"Burger She Wrote, Los Angeles",
+Tea At Shiloh,Cafe,$$,1-3h,Afternoon,12,no,34.031719,-118.230757,https://teaatshiloh.com/,"Tea at Shiloh, Los Angeles",
+Seco,Restaurant|Mediterranean,$$,1-3h,Evening,19,no,34.091074,-118.279103,https://www.yelp.com/biz/seco-los-angeles,"Seco, Los Angeles",
+Wife and the Somm,Restaurant|Californian,$$$,1-3h,Evening,27,no,34.114111,-118.234903,https://www.wifeandthesomm.com/,"Wife and the Somm, Los Angeles",
+Hippo,Restaurant|Italian,$$$,1-3h,Evening,18,no,34.110448,-118.190181,https://www.hipporestaurant.com/,"Hippo, Highland Park, Los Angeles",
+Etra,Restaurant|Italian,$$$,1-3h,Evening,22,no,34.084457,-118.309494,https://etra.la/,"Etra, Los Angeles",
+Cento Pasta Bar,Restaurant|Italian,$$$,1-3h,Evening,20,no,34.032578,-118.347328,https://www.cento.group/,"Cento Pasta Bar, Los Angeles",
+Flippers,Restaurant|Breakfast,$$,1-3h,Anytime,31,no,34.089076,-118.361329,https://www.flippersus.com/,"Flippers, Los Angeles",
+Messob,Restaurant|Ethiopian,$$,1-3h,Evening,23,no,34.057011,-118.364616,https://www.messob.com/,"Messob Ethiopian, Los Angeles",
+Takami Sushi,Restaurant|Japanese,$$,1-3h,Evening,3,no,34.050107,-118.258107,https://takamisushi.com/,"Takami Sushi, Los Angeles",
+Papi Tacos & Churros,Restaurant|Mexican,$,<1h,Anytime,20,no,34.095140,-118.326349,https://www.papitacoschurros.com/,"Papi Tacos & Churros, Los Angeles",
+Leo's Tacos,Restaurant|Mexican,$,<1h,Late night,9,no,34.067770,-118.261125,https://www.leostacostruck.com/,"Leo's Tacos Truck, Los Angeles",
+The Park's Finest,Restaurant|Filipino,$$,1-3h,Evening,8,no,34.066444,-118.254127,https://theparksfinest.com/,"The Park's Finest BBQ, Los Angeles",
+Tartine,Restaurant|Sandwich,$$,<1h,Morning,18,no,34.092419,-118.279892,https://tartinebakery.com/los-angeles/silverlake,"Tartine, Los Angeles",
+Carney's,Restaurant|American,$,<1h,Anytime,28,no,34.143879,-118.407371,https://carneytrain.com/carneysrestaurant-studio?utm_source=google,"Carney's, Los Angeles",
+Ten-BBQ,Restaurant|Korean BBQ,$$,1-3h,Evening,17,no,34.069220,-118.305213,https://www.tenbbq.com/,"Ten KBBQ, Los Angeles",
+Hawt Mess,Restaurant|Sandwich,$$,1-3h,Lunch,25,no,34.076286,-118.357142,https://www.hautemess.la/,"Hawt Mess, Los Angeles",
+Uovo,Restaurant|Italian,$$,1-3h,Evening,20,no,34.063760,-118.364803,https://uovo.la/,"Uovo, Los Angeles",
+Secret Pizza,Restaurant|Pizza,$,<1h,Late night,17,no,34.086477,-118.187724,https://www.secretpizzala.com/,"Secret Pizza, Los Angeles",
+Sqirl,Restaurant|Breakfast,$$,<1h,Morning,15,no,34.084329,-118.286646,https://sqirlla.com/?srsltid=AfmBOoqZfMCREsdwSHLOwwu1dTjsJh2Cw8qYKTtRtZ8CkPu-Y0chRZVV,"Sqirl, Los Angeles",
+Blondie,Restaurant|American,$$,1-3h,Evening,26,no,34.082787,-118.375258,https://www.blondiemelrose.com/,"Blondie, Los Angeles",
+Manuela,Restaurant|American,$$$,1-3h,Evening,10,no,34.046110,-118.234580,https://manuela-la.com/,"Manuela, Los Angeles",
+Laurel Hardware,Restaurant|American,$$$,1-3h,Evening,27,no,34.090752,-118.364357,https://www.laurelhardware.com/,"Laurel Hardware, West Hollywood",
+Donna's Echo Park,Restaurant|Italian,$$,1-3h,Evening,10,no,34.076228,-118.256677,https://www.donnasla.com/,"Donna's, Echo Park, Los Angeles",
+Juneshine,Bar,$$,1-3h,Evening,22,no,33.999058,-118.480927,https://juneshine.com/,"JuneShine, Los Angeles",
+71 Above,Bar,$$$,1-3h,Evening,6,no,34.051056,-118.254403,https://www.71above.com/,"71Above, Los Angeles",
+Bonsai Coffee & Bar,Cafe,$$,1-3h,Evening,18,no,34.045000,-118.453780,https://www.bonsaicoffeebar.com/,"Bonsai bar, Los Angeles",
+No Vacancy,Bar,$$$,1-3h,Late night,14,no,34.103295,-118.332260,https://novacancyla.com/,"No Vacancy, Los Angeles",
+Cafe Brass Monkey,Bar,$$,1-3h,Late night,11,no,34.060710,-118.299642,https://www.cafebrassmonkey.com/,"Cafe Brass Monkey, Los Angeles",
+La Descarga,Bar,$$$,1-3h,Late night,11,no,34.092130,-118.309360,https://www.ladescargala.com/,"La Descarga, Los Angeles",
+Death and Co LA,Bar,$$$,1-3h,Late night,10,no,34.045775,-118.235849,https://www.deathandcompany.com/location/dtla/,"Death & Co, Los Angeles",
+Thunderbolt,Bar,$$,1-3h,Evening,7,no,34.066370,-118.254080,https://www.thunderboltla.com/,"Thunderbolt, Los Angeles",
+Bar Lis,Bar,$$$,1-3h,Evening,15,no,34.098952,-118.331355,https://www.barlisla.com/,"Bar Lis, Los Angeles",
+Perch,Bar,$$$,1-3h,Evening,5,no,34.048857,-118.251343,https://www.perchla.com/,"Perch, Los Angeles",
+The Rendition Room,Bar,$$$,1-3h,Late night,18,no,34.148847,-118.379311,https://www.vitellosrestaurant.com/the-rendition-room,"The Rendition Room, Los Angeles",
+Lock & Key,Bar,$$,1-3h,Late night,12,no,34.069493,-118.292010,https://www.discoverlosangeles.com/eat-drink/lock-key,"Lock & Key, Los Angeles",
+Good Times at Davey Wayne's,Bar,$$,1-3h,Late night,13,no,34.100236,-118.323945,https://goodtimesatdaveywaynes.com/,"Good Times at Davey Wayne's, Los Angeles",
+EightyTwo,Barcade,$$,1-3h,Late night,9,no,34.045399,-118.237442,https://www.eightytwo.la/,"Bar 82, Los Angeles",
+OSA Rooftop,Restaurant|American,$$$,1-3h,Evening,20,no,34.145817,-118.139104,https://osarooftop.com/,"OSA rooftop, Los Angeles",
+Kiss Kiss Bang Bang,Bar,$$,1-3h,Late night,12,no,34.061785,-118.301288,https://kisskissbangbangca.com/,"Kiss Kiss Bang Bang, Los Angeles",
+Tiki Kai,Bar,$$,1-3h,Evening,32,no,33.862412,-118.400460,https://www.tikikai.com/,"Tiki Kai, Los Angeles",
+Prank Bar,Bar,$$,1-3h,Late night,2,no,34.041932,-118.263120,https://prankbar.com/,"Prank Bar, Los Angeles",
+The Buttery,Cafe,$$,<1h,Morning,34,no,33.715848,-117.964422,https://thebutteryoc.com/,"The Buttery, Los Angeles",
+Olive and James,Cafe,$$,<1h,Morning,9,no,34.088871,-118.276943,https://www.oliveandjamescafe.com/,"Olive and June, Los Angeles",
+Halo,Cafe,$$,<1h,Morning,4,no,34.053166,-118.252333,https://www.halodtla.com/,"Halo, Los Angeles",
+Spoke Bicycle Cafe,Cafe,$$,1-3h,Morning,12,no,34.105100,-118.243575,https://www.spokebicyclecafe.com/,"Spoke Bicycle Cafe, Los Angeles",
+El Matador State Beach,Beach,$$,<1h,Morning,47,no,34.039778,-118.875702,https://www.californiabeaches.com/beach/el-matador-state-beach/,"El Matador Beach, Los Angeles",
+Modu,Cafe,$$,<1h,Morning,15,no,34.118738,-118.191896,https://www.moducafe.com/,"Modu, Los Angeles",
+Cafe Dolce,Cafe,$$,<1h,Afternoon,10,no,34.049240,-118.239649,https://cafedulcelittletokyo.square.site/,"Dolce, Los Angeles",
+Bacio di Latte,Dessert,$,<1h,Afternoon,21,no,34.074249,-118.326305,https://baciodilatte.us/?gad_source=1&gad_campaignid=20181314814&gbraid=0AAAAApmwOyuvzx1pUyt5buLbM3edEeIg0&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD3oS-anu0y8P2kXc8tqY30OXnWkXg-uQjQVmZuiAVW97ZSai6cGIMwaAoPvEALw_wcB,"Bacio di Latte, Los Angeles",
+Mewame,Dessert,$,<1h,Afternoon,29,no,34.090700,-118.349454,,"Mewame, Los Angeles",
+Awan,Dessert,$,<1h,Afternoon,23,no,34.083277,-118.323367,https://enjoyawan.com/,"Awan, Los Angeles",
+Dialog Cafe,Cafe,$$,<1h,Morning,36,no,34.090563,-118.382950,https://dialogcafe.la/,"Dialog Cafe, West Hollywood",ESTIMATE | GEOCODE FAILED
+Stagger Coffee,Cafe,$$,<1h,Morning,9,no,34.057890,-118.293709,,"Stagger, Los Angeles",
+Intelligentsia,Cafe,$$,<1h,Morning,18,no,34.092040,-118.280230,https://www.intelligentsia.com/,Intelligentsia Coffee Silver Lake Los Angeles CA,
+Blue Bottle,Cafe,$$,<1h,Morning,22,no,34.109538,-118.287206,https://bluebottlecoffee.com/us/eng?srsltid=AfmBOorueS7pMYlTSS1jOdHZo0LlUdD9b9-j-tODMV3U8810I0GwrGAD,"Blue Bottle Coffee, Los Angeles",
+Verve Coffee Roasters,Cafe,$$,<1h,Morning,13,no,34.041450,-118.232718,https://www.vervecoffee.com/?srsltid=AfmBOoq0N-KEihaeBvThJJXJ1cFy9L72oGSim4raNz4A2tJUPiVp6qzB,"Verve Coffee Roasters, Los Angeles",
+Go Get Em Tiger,Cafe,$$,<1h,Morning,6,no,34.050691,-118.248789,https://gget.com/,"Go Get Em Tiger, Los Angeles",
+Alfred Tea Room,Cafe,$$,<1h,Afternoon,12,no,34.062127,-118.301080,https://alfred.la/?srsltid=AfmBOopBJnORwas7b7GO8B4gnq0bv_6WsQgktIp2ScX5AQ2MOEydZ099,"Alfred Tea Room, Los Angeles",
+Coffee Dose,Cafe,$$,<1h,Morning,90,no,33.690249,-117.828793,https://coffeedose.cafe/,"Coffee Dose, Los Angeles",
+Cha Cha Matcha,Cafe,$$,<1h,Morning,29,no,34.080390,-118.384950,https://chachamatcha.com/?srsltid=AfmBOor_gf6XBNaz8ALHQuZ1Ju9WLxP1ciuWDFOqFOldDBH7Ic4QNB1d,"Cha Cha Matcha, Los Angeles",
+Canyon Coffee,Cafe,$$,<1h,Morning,14,no,34.081394,-118.254686,https://canyoncoffee.co/echo-park,"Canyon Coffee, Los Angeles",
+The Ivy,Restaurant|Californian,$$$$,1-3h,Lunch,29,no,34.075406,-118.384015,https://theivyrestaurants.com/,"The Ivy, Los Angeles",
+Kissaten Corazon,Cafe,$$,<1h,Morning,15,no,34.069290,-118.227989,https://www.kissacora.com/,"Kissaten Corazon, Los Angeles",
+Little Miss Cafe,Cafe,$$,<1h,Morning,17,no,34.050587,-118.361926,https://www.littlemisscafe.com/,"Little Miss Cafe, Los Angeles",
+Alfred Coffee,Cafe,$$,<1h,Morning,33,no,34.083384,-118.374302,https://alfred.la/?srsltid=AfmBOopSi2ch8JMu2DLddDCpO2BN4rn4VWKpZ1Y-F9ppLsHpoyAV1W7M,"Alfred Coffee, Los Angeles",
+Ideology,Cafe,$$,<1h,Morning,30,no,34.150497,-118.257875,,"Ideology Coffee, Los Angeles",
+Archives of Us,Cafe,$$,<1h,Morning,12,no,34.057910,-118.239887,https://archivesofus.com/?srsltid=AfmBOorK-lI_BTDAKAI4tfuF-1FNU-x9pbkKeJZL3g_NKPlqbjNAuh9x,"Archives of Us, Los Angeles",
+Bricks and Scones,Cafe,$$,1-3h,Morning,24,no,34.077687,-118.324042,,"Bricks and Scones, Los Angeles",
+Echo Park Swan Boats,Activity|Boat,$,1-3h,Afternoon,15,no,34.073314,-118.260026,https://wheelfunrentals.com/ca/los-angeles/echo-park/,"Echo Park Lake Boat Rentals, Los Angeles",
+Venice Canals Historic District,Outdoors,Free,1-3h,Afternoon,37,no,33.985385,-118.464451,https://venicecanals.org/canals/,Venice Canals Historic District Los Angeles CA,
+New Beverly Cinema,Activity|Movies,$,1-3h,Evening,28,no,34.076447,-118.345705,https://thenewbev.com/,"New Beverly Cinema, Los Angeles",
+City Walk,Activity|Movies,Free,1-3h,Evening,33,no,34.141381,-118.356601,https://www.universalstudioshollywood.com/web/en/us/things-to-do/lands/citywalk,"Universal CityWalk, Universal City CA",
+Disneyland,Activity|Theme Park,$$$$,Full-day,Anytime,68,no,33.813301,-117.924377,https://disneyland.disney.go.com/?ef_id=Cj0KCQjwrs7RBhDuARIsAIVfBD0cQ7TTGF_bMFsXw0z4NQl7qO42G89C6Wo2pUTIxPBUwC_I0TIKUAoaAk-ZEALw_wcB:G:s&s_kwcid=AL!5054!3!751062685826!e!!g!!disneyland!1584763133!62644959587&CMP=KNC-FY26_DLR_TRA_LSC_LACN_SCP_SCP_365Scope_EXACT|G|5262059.DL.AM.01.02|MXXPLFN|BR|751062685826&keyword_id=kwd-11641941|dc|disneyland|751062685826|e|5054:3|&gad_source=1&gad_campaignid=1584763133&gbraid=0AAAAAD_M-ka5vI7EYvjMLS9a1dPDumxyv&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0cQ7TTGF_bMFsXw0z4NQl7qO42G89C6Wo2pUTIxPBUwC_I0TIKUAoaAk-ZEALw_wcB,"Disneyland, Anaheim CA",
+Universal Studios,Activity|Theme Park,$$$$,Full-day,Anytime,33,no,34.133072,-118.352493,https://www.universalstudioshollywood.com/web/en/us/theme-park-ticket-deals?__source=PS_AWELTI7ULY_5746_Off26TIXBDGD&gclsrc=aw.ds&gad_source=1&gad_campaignid=181429454&gbraid=0AAAAAD7MCzstost6VqJjiLv2Y9OmCkTBm&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD2NMFwV9OwKmlNJ1Q4OWwU-0peDnDu0bvw5zUnx8sUZL-ylrWiIDK8aAsV6EALw_wcB,"Universal Studios Hollywood, Universal City CA",
+Royal Palms Beach Park,Beach,Free,1-3h,Morning,57,no,33.722373,-118.332868,https://sanpedro.com/la-waterfront/royal-palms-state-beach/,"Palos Verdes tide pools, CA",
+Santa Monica Mountains,Outdoors,Free,Half-day,Morning,80,no,34.070560,-118.811913,https://www.nps.gov/samo/index.htm,"Santa Monica Mountains National Recreation Area, CA",
+Santa Monica Pier,Activity|Theme Park,Free,1-3h,Afternoon,23,no,34.010021,-118.495827,https://www.santamonicapier.org/,Santa Monica Pier Santa Monica CA,
+Regal LA Live,Activity|Movies,$$,1-3h,Evening,2,no,34.045699,-118.268038,https://www.regmovies.com/theatres/regal-la-live-1484,"Regal LA Live 4DX, Los Angeles",
+Shakespeare in Topanga Canyon,Activity|Theater,$$,Half-day,Evening,45,no,34.110861,-118.592827,https://theatricum.com/,"Theatricum Botanicum, Topanga CA",
+Paramount Ranch,Outdoors,Free,1-3h,Morning,50,no,34.116004,-118.753644,https://www.nps.gov/samo/planyourvisit/paramountranch.htm,"Paramount Ranch, Agoura Hills CA",
+Chateau Marmont,Activity|Hotel,$$$$,1-3h,Evening,23,no,34.098370,-118.367700,https://www.chateaumarmont.com/,"Chateau Marmont, Los Angeles",
+Ojai,Activity|Day trip,$$,Full-day,Anytime,90,no,34.446880,-119.254982,,Ojai CA,
+Magic Tree Hike,Activity|Hike,Free,1-3h,Morning,18,no,34.135952,-118.332168,,"Wisdom Tree trail, Los Angeles",
+Runyon Canyon Hike,Activity|Hike,Free,1-3h,Morning,17,no,34.111528,-118.350222,https://runyoncanyontrails.com/,Runyon Canyon Park Los Angeles CA,
+Canal Market,Activity|Market,$,1-3h,Afternoon,30,no,33.986957,-118.464530,https://www.thecanalmarket.com/,"Canal market, Los Angeles",
+Photo Booth Museum,Activity|Museum,$,<1h,Afternoon,18,no,34.091725,-118.279319,https://www.photomatica.com/photo-booth-museum,"Photo booth museum, Los Angeles",
+Natural History Museum,Activity|Museum,$$,Half-day,Afternoon,12,no,34.017801,-118.290576,https://nhm.org/,Natural History Museum of Los Angeles County,
+Malibu Creek State Park,Outdoors,$,Half-day,Morning,62,no,34.110745,-118.711112,https://parks.ca.gov/?page_id=614,"Malibu Creek State Park, Calabasas CA",
+Obscura Collective,Shopping,$$,<1h,Afternoon,7,no,34.048020,-118.247580,https://www.obscuracollectivela.com/,"Obscura Collective, Los Angeles",
+The Grove,Shopping,$$,1-3h,Afternoon,28,no,34.071980,-118.358009,https://thegrovela.com/,"The Grove, Los Angeles",
+Lucky Strike,Activity|Bowling,$$,1-3h,Evening,1,no,34.044840,-118.264530,https://www.luckystrikeent.com/location/lucky-strike-los-angeles,"Lucky Strike, Los Angeles",
+The Last Bookstore,Shopping,Free,1-3h,Anytime,8,no,34.047768,-118.249918,https://www.lastbookstorela.com/?srsltid=AfmBOopwZ4z4sJmlZXeCrBr1-s8O8u3fcaXrNALxtNlFgIqWB02mnGfx,The Last Bookstore downtown Los Angeles CA,
+123 Farms Lavender Night,Activity|Day trip,$$,Half-day,Evening,132,no,33.965118,-116.944475,https://www.123farm.com/lavendernights,"123 Farms, Beaumont CA",
+Wildwood Canyon State Park,Outdoors,Free,1-3h,Morning,125,no,34.031206,-116.997483,https://www.parks.ca.gov/?page_id=22883,"Wildwood Canyon Park, Burbank CA",
+Warner Bros Studio Tour,Activity|Studio Tour,$$$$,Half-day,Morning,26,no,34.150661,-118.338685,https://www.wbstudiotour.com/,"Warner Bros Studio Tour Hollywood, Burbank CA",
+Earl Burns Miller Japanese Garden,Outdoors,$,1-3h,Afternoon,50,no,33.787005,-118.119057,https://www.csulb.edu/earl-burns-miller-japanese-garden,"Earl Burns Miller Japanese Garden, Long Beach CA",
+Catalina Island Day,Activity|Day trip,$$$,Full-day,Anytime,120,no,33.340404,-118.314682,https://catalinaexpress.com/,"Catalina Island, Avalon CA",
+Santa Monica Farmer's Market,Activity|Market,Free,1-3h,Morning,26,no,34.015861,-118.499079,https://www.santamonica.gov/categories/programs/farmers-market,Santa Monica Farmers Market,
+Beachwood Canyon Stairs,Activity|Hike,Free,1-3h,Morning,23,no,34.124485,-118.318469,,"Beachwood Canyon, Los Angeles",
+Silverlake Flea Market,Activity|Shopping,$,1-3h,Morning,22,no,34.143815,-118.273967,https://www.silverlakeflea.com/,"Silver Lake Flea, Los Angeles",
+Oak Glen,Activity|Day trip,$$,Full-day,Anytime,133,no,34.018390,-117.092872,https://www.oakglen.net/,"Oak Glen, CA",
+Y2KLA,Activity|Shopping,$$,<1h,Afternoon,5,no,34.036086,-118.271669,https://y2kla.com/?srsltid=AfmBOopUPGk_GlODImWqiAmC6wgFx-iMFjpD6R4Gxs4bXmaVfigwcbdL,1717 S Figueroa St Los Angeles CA 90015,
+Will Rogers State Beach,Outdoors,Free,1-3h,Afternoon,31,no,34.050622,-118.512096,https://www.parks.ca.gov/?page_id=625,"Will Rogers State Beach, Pacific Palisades CA",
 LA Apparel,Shopping,$$,<1h,Afternoon,8,no,33.987045,-118.260989,,"Los Angeles Apparel, Los Angeles","ESTIMATE | matched: Los Angeles Apparel Factory Store, 812, East 59th"
 Watercolor Wednesdays Topanga,Activity,$$,1-3h,Afternoon,,no,34.067587,-118.595672,,"Topanga, CA","ESTIMATE | REVIEW - event | matched: Topanga, Los Angeles County, California, 90290, Un"
 Topanga Canyon Hike (Tuna Canyon),Hike,Free,1-3h,Morning,30,no,,,,"Tuna Canyon trailhead, Topanga CA",ESTIMATE | GEOCODE FAILED
